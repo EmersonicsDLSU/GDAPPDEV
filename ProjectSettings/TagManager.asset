@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - RedBullet
+  - Gun
+  - GreenBullet
+  - BlueBullet
+  - Joystick
+  - Enemies
+  - RespawnPoint
+  - Levels
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - non-walkable
+  - walkable
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: GroundTiles
+    uniqueID: 2150078707
+    locked: 0
+  - name: TilesDeco
+    uniqueID: 3220414829
+    locked: 0
+  - name: Enemies
+    uniqueID: 2485463991
+    locked: 0
+  - name: Boss
+    uniqueID: 1559319841
+    locked: 0
+  - name: Ammos
+    uniqueID: 3553002935
+    locked: 0
+  - name: Player
+    uniqueID: 1730232661
+    locked: 0
+  - name: Guns
+    uniqueID: 1263741511
+    locked: 0
+  - name: UI
+    uniqueID: 3425147319
+    locked: 0

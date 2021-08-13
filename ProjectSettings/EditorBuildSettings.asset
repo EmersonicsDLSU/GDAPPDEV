@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Alain's Work/Scene/MenuOptions.unity
+    guid: f4a13f0c25f7bdd45a94ea84432bccb2
+  - enabled: 1
+    path: Assets/Emerson's Work/Scene/emersonSample.unity
+    guid: b2a9ced04ca01994c8db550a3bb7b7c6
+  - enabled: 1
+    path: Assets/Emerson's Work/Scene/ShopManagerScene.unity
+    guid: d270c0c495f2c1b45b4a35c84f5b2fba
+  - enabled: 1
+    path: Assets/Emerson's Work/Scene/WinScene.unity
+    guid: 5b2a161b1e282624797f9e57f8a1772c
+  - enabled: 1
+    path: Assets/Emerson's Work/Scene/LoadingScene.unity
+    guid: 464b1358d0aeaec42acb1a3ec1dbb62a
+  m_configObjects: {}

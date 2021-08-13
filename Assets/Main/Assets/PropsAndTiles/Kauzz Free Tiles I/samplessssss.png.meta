@@ -1,0 +1,2664 @@
+fileFormatVersion: 2
+guid: d3c4c2c2c073c6740abf880af3b69c8a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9074792387740339169
+    second: streets-tilee-v2-32_0
+  - first:
+      213: -472398359339820829
+    second: streets-tilee-v2-32_1
+  - first:
+      213: 3137319491011782761
+    second: streets-tilee-v2-32_2
+  - first:
+      213: 8192090646781893442
+    second: streets-tilee-v2-32_3
+  - first:
+      213: 5982673709358019279
+    second: streets-tilee-v2-32_4
+  - first:
+      213: -4412102194148061477
+    second: streets-tilee-v2-32_5
+  - first:
+      213: -4378330545514342130
+    second: streets-tilee-v2-32_6
+  - first:
+      213: -2327435936528337545
+    second: streets-tilee-v2-32_7
+  - first:
+      213: 8250366122651267915
+    second: streets-tilee-v2-32_8
+  - first:
+      213: 7709335993428295364
+    second: streets-tilee-v2-32_9
+  - first:
+      213: -5552065550443884769
+    second: streets-tilee-v2-32_10
+  - first:
+      213: -5266980115252391090
+    second: streets-tilee-v2-32_11
+  - first:
+      213: -17276835159837226
+    second: streets-tilee-v2-32_12
+  - first:
+      213: -5881063235504150515
+    second: streets-tilee-v2-32_13
+  - first:
+      213: 1131937577725155570
+    second: streets-tilee-v2-32_14
+  - first:
+      213: -4476691153540982874
+    second: streets-tilee-v2-32_15
+  - first:
+      213: -2135630153823192212
+    second: streets-tilee-v2-32_16
+  - first:
+      213: -6929343365870694544
+    second: streets-tilee-v2-32_17
+  - first:
+      213: 8067525414050911474
+    second: streets-tilee-v2-32_18
+  - first:
+      213: -515756722877582977
+    second: streets-tilee-v2-32_19
+  - first:
+      213: 3096440828916290669
+    second: streets-tilee-v2-32_20
+  - first:
+      213: 6835798172378476978
+    second: streets-tilee-v2-32_21
+  - first:
+      213: 6154192629953854796
+    second: streets-tilee-v2-32_22
+  - first:
+      213: -364139589293767065
+    second: streets-tilee-v2-32_23
+  - first:
+      213: 1927445400634693104
+    second: streets-tilee-v2-32_24
+  - first:
+      213: 6563709880314277377
+    second: streets-tilee-v2-32_25
+  - first:
+      213: -4666953745709694566
+    second: streets-tilee-v2-32_26
+  - first:
+      213: 4143026762651203589
+    second: streets-tilee-v2-32_27
+  - first:
+      213: -5870135663033346228
+    second: streets-tilee-v2-32_28
+  - first:
+      213: -4363222687273278009
+    second: streets-tilee-v2-32_29
+  - first:
+      213: -6211440740750115837
+    second: streets-tilee-v2-32_30
+  - first:
+      213: 8414954081555437701
+    second: streets-tilee-v2-32_31
+  - first:
+      213: 6665225398790015220
+    second: streets-tilee-v2-32_32
+  - first:
+      213: -8557038973525941537
+    second: streets-tilee-v2-32_33
+  - first:
+      213: -1149670881585879511
+    second: streets-tilee-v2-32_34
+  - first:
+      213: -495761636957111726
+    second: streets-tilee-v2-32_35
+  - first:
+      213: -7015631584447135466
+    second: streets-tilee-v2-32_36
+  - first:
+      213: 4872774846127780356
+    second: streets-tilee-v2-32_37
+  - first:
+      213: -5641797761613871124
+    second: streets-tilee-v2-32_38
+  - first:
+      213: -4318426708817852047
+    second: streets-tilee-v2-32_39
+  - first:
+      213: -8397352950821399170
+    second: streets-tilee-v2-32_40
+  - first:
+      213: 5118531711972171913
+    second: streets-tilee-v2-32_41
+  - first:
+      213: 5944718773512601666
+    second: streets-tilee-v2-32_42
+  - first:
+      213: 5735579170424169058
+    second: streets-tilee-v2-32_43
+  - first:
+      213: 103932712806372093
+    second: streets-tilee-v2-32_44
+  - first:
+      213: -1955996483736967879
+    second: streets-tilee-v2-32_45
+  - first:
+      213: -1878794833347401564
+    second: streets-tilee-v2-32_46
+  - first:
+      213: 4725043601259303510
+    second: streets-tilee-v2-32_47
+  - first:
+      213: 399619085993879021
+    second: streets-tilee-v2-32_48
+  - first:
+      213: -4649374428163519465
+    second: streets-tilee-v2-32_49
+  - first:
+      213: -8556538880262776586
+    second: streets-tilee-v2-32_50
+  - first:
+      213: 6480821456066743923
+    second: streets-tilee-v2-32_51
+  - first:
+      213: 4459396948229700895
+    second: streets-tilee-v2-32_52
+  - first:
+      213: -9000657864761191973
+    second: streets-tilee-v2-32_53
+  - first:
+      213: -2328670745875087910
+    second: streets-tilee-v2-32_54
+  - first:
+      213: -2187451411553728386
+    second: streets-tilee-v2-32_55
+  - first:
+      213: 9216724370466297413
+    second: streets-tilee-v2-32_56
+  - first:
+      213: 1761010964280306896
+    second: streets-tilee-v2-32_57
+  - first:
+      213: 2008826482330184850
+    second: streets-tilee-v2-32_58
+  - first:
+      213: -701959535185569201
+    second: streets-tilee-v2-32_59
+  - first:
+      213: -1134195527903689329
+    second: streets-tilee-v2-32_60
+  - first:
+      213: -8746155967514153617
+    second: streets-tilee-v2-32_61
+  - first:
+      213: 5266383601895184301
+    second: streets-tilee-v2-32_62
+  - first:
+      213: 2262568660927878668
+    second: streets-tilee-v2-32_63
+  - first:
+      213: 6253531213467843838
+    second: streets-tilee-v2-32_64
+  - first:
+      213: 8551447929898457923
+    second: streets-tilee-v2-32_65
+  - first:
+      213: -6492566521454478506
+    second: streets-tilee-v2-32_66
+  - first:
+      213: -7001577147405288225
+    second: streets-tilee-v2-32_67
+  - first:
+      213: -2319818318125275071
+    second: streets-tilee-v2-32_68
+  - first:
+      213: 3158683082685390843
+    second: streets-tilee-v2-32_69
+  - first:
+      213: -1623441727119962763
+    second: streets-tilee-v2-32_70
+  - first:
+      213: 8628753983637585436
+    second: streets-tilee-v2-32_71
+  - first:
+      213: 6813647743365130134
+    second: streets-tilee-v2-32_72
+  - first:
+      213: -7310113775546336804
+    second: streets-tilee-v2-32_73
+  - first:
+      213: -5878456238383646975
+    second: streets-tilee-v2-32_74
+  - first:
+      213: -767149042367450077
+    second: streets-tilee-v2-32_75
+  - first:
+      213: -113665175445767569
+    second: streets-tilee-v2-32_76
+  - first:
+      213: -1059079506608977900
+    second: streets-tilee-v2-32_77
+  - first:
+      213: -7075036991362179479
+    second: streets-tilee-v2-32_78
+  - first:
+      213: -4666194637520103589
+    second: streets-tilee-v2-32_79
+  - first:
+      213: 7466684634413048829
+    second: streets-tilee-v2-32_80
+  - first:
+      213: 2834261503024352727
+    second: streets-tilee-v2-32_81
+  - first:
+      213: 8159991074213558608
+    second: streets-tilee-v2-32_82
+  - first:
+      213: 8815437742039570297
+    second: streets-tilee-v2-32_83
+  - first:
+      213: -7793748605653085783
+    second: streets-tilee-v2-32_84
+  - first:
+      213: 2327196680508876571
+    second: streets-tilee-v2-32_85
+  - first:
+      213: -1141036472417338106
+    second: streets-tilee-v2-32_86
+  - first:
+      213: 3522490688485620799
+    second: streets-tilee-v2-32_87
+  - first:
+      213: 6911413872606425611
+    second: streets-tilee-v2-32_88
+  - first:
+      213: -7231136782603572219
+    second: streets-tilee-v2-32_89
+  - first:
+      213: 1321284538260224892
+    second: streets-tilee-v2-32_90
+  - first:
+      213: -3590101925804215448
+    second: streets-tilee-v2-32_91
+  - first:
+      213: -4917495159043482468
+    second: streets-tilee-v2-32_92
+  - first:
+      213: -6220935608369546647
+    second: streets-tilee-v2-32_93
+  - first:
+      213: -3777966783305155845
+    second: streets-tilee-v2-32_94
+  - first:
+      213: 8819597152343381903
+    second: streets-tilee-v2-32_95
+  - first:
+      213: -8393782399946681167
+    second: streets-tilee-v2-32_96
+  - first:
+      213: -1580541780018172948
+    second: streets-tilee-v2-32_97
+  - first:
+      213: -7857142076372559972
+    second: streets-tilee-v2-32_98
+  - first:
+      213: 3157767419934142077
+    second: streets-tilee-v2-32_99
+  - first:
+      213: 1300722513537424399
+    second: streets-tilee-v2-32_100
+  - first:
+      213: 1356229622884803286
+    second: streets-tilee-v2-32_101
+  - first:
+      213: 9070362027542170147
+    second: streets-tilee-v2-32_102
+  - first:
+      213: 2475152138091740763
+    second: streets-tilee-v2-32_103
+  - first:
+      213: 5475505164700841818
+    second: streets-tilee-v2-32_104
+  - first:
+      213: 192323466520401783
+    second: streets-tilee-v2-32_105
+  - first:
+      213: 6215956238279415506
+    second: streets-tilee-v2-32_106
+  - first:
+      213: 4703425788700775420
+    second: streets-tilee-v2-32_107
+  - first:
+      213: -9162373278117614705
+    second: streets-tilee-v2-32_108
+  - first:
+      213: -5319936168631258835
+    second: streets-tilee-v2-32_109
+  - first:
+      213: -4135636897818616022
+    second: streets-tilee-v2-32_110
+  - first:
+      213: 3258604308909664698
+    second: streets-tilee-v2-32_111
+  - first:
+      213: -6584590636636209007
+    second: streets-tilee-v2-32_112
+  - first:
+      213: 798550965475024633
+    second: streets-tilee-v2-32_113
+  - first:
+      213: 2369344264636074386
+    second: streets-tilee-v2-32_114
+  - first:
+      213: -5301422623448011616
+    second: streets-tilee-v2-32_115
+  - first:
+      213: 8681100660189825104
+    second: streets-tilee-v2-32_116
+  - first:
+      213: -7625046298029576862
+    second: streets-tilee-v2-32_117
+  - first:
+      213: -5984830402920221181
+    second: streets-tilee-v2-32_118
+  - first:
+      213: -7474734246928135538
+    second: streets-tilee-v2-32_119
+  - first:
+      213: 7071950969494643218
+    second: streets-tilee-v2-32_120
+  - first:
+      213: -8976352736107155958
+    second: streets-tilee-v2-32_121
+  - first:
+      213: 3525528690580355468
+    second: streets-tilee-v2-32_122
+  - first:
+      213: -8594563319050617524
+    second: streets-tilee-v2-32_123
+  - first:
+      213: -3072879524536549986
+    second: streets-tilee-v2-32_124
+  - first:
+      213: 1692187716290447901
+    second: streets-tilee-v2-32_125
+  - first:
+      213: -604032834252133403
+    second: streets-tilee-v2-32_126
+  - first:
+      213: 9216417492579559894
+    second: streets-tilee-v2-32_127
+  - first:
+      213: 4044814194254198850
+    second: streets-tilee-v2-32_128
+  - first:
+      213: -6593638892217900161
+    second: streets-tilee-v2-32_129
+  - first:
+      213: 8593615311995441522
+    second: streets-tilee-v2-32_130
+  - first:
+      213: -5357454482814775848
+    second: streets-tilee-v2-32_131
+  - first:
+      213: -7338713391250540295
+    second: streets-tilee-v2-32_132
+  - first:
+      213: 2823272573916962660
+    second: streets-tilee-v2-32_133
+  - first:
+      213: 2174750426102934909
+    second: streets-tilee-v2-32_134
+  - first:
+      213: -223458662585515056
+    second: streets-tilee-v2-32_135
+  - first:
+      213: 2500435178855395483
+    second: streets-tilee-v2-32_136
+  - first:
+      213: 9022761933084934874
+    second: streets-tilee-v2-32_137
+  - first:
+      213: -9216402987394689367
+    second: streets-tilee-v2-32_138
+  - first:
+      213: 7436708345250246248
+    second: streets-tilee-v2-32_139
+  - first:
+      213: -5319329008919471889
+    second: streets-tilee-v2-32_140
+  - first:
+      213: -2412184328293966296
+    second: streets-tilee-v2-32_141
+  - first:
+      213: 1901223459110124348
+    second: streets-tilee-v2-32_142
+  - first:
+      213: 3735249282263659789
+    second: streets-tilee-v2-32_143
+  - first:
+      213: -297584886426814723
+    second: streets-tilee-v2-32_144
+  - first:
+      213: 4865196833842291543
+    second: streets-tilee-v2-32_145
+  - first:
+      213: -1028711457422797765
+    second: streets-tilee-v2-32_146
+  - first:
+      213: 3789706146363739973
+    second: streets-tilee-v2-32_147
+  - first:
+      213: -4152911112209455928
+    second: streets-tilee-v2-32_148
+  - first:
+      213: 2918543204110734371
+    second: streets-tilee-v2-32_149
+  - first:
+      213: 6224796782939750656
+    second: streets-tilee-v2-32_150
+  - first:
+      213: 4082155314268334864
+    second: streets-tilee-v2-32_151
+  - first:
+      213: -7278481698244738357
+    second: streets-tilee-v2-32_152
+  - first:
+      213: 662792736903407649
+    second: streets-tilee-v2-32_153
+  - first:
+      213: 3880411185786907821
+    second: streets-tilee-v2-32_154
+  - first:
+      213: 3773470572777287954
+    second: streets-tilee-v2-32_155
+  - first:
+      213: -7383837937937345598
+    second: streets-tilee-v2-32_156
+  - first:
+      213: 8371968002055279737
+    second: streets-tilee-v2-32_157
+  - first:
+      213: -4562883631575217194
+    second: streets-tilee-v2-32_158
+  - first:
+      213: -181432565416822982
+    second: streets-tilee-v2-32_159
+  - first:
+      213: 4733618467688725520
+    second: streets-tilee-v2-32_160
+  - first:
+      213: 5645292390802686392
+    second: streets-tilee-v2-32_161
+  - first:
+      213: -648216957857033067
+    second: streets-tilee-v2-32_162
+  - first:
+      213: 7695080592772642979
+    second: streets-tilee-v2-32_163
+  - first:
+      213: -8859755143584462192
+    second: streets-tilee-v2-32_164
+  - first:
+      213: -4161659614217052015
+    second: streets-tilee-v2-32_165
+  - first:
+      213: 429986896340302915
+    second: streets-tilee-v2-32_166
+  - first:
+      213: 6692532507089167595
+    second: streets-tilee-v2-32_167
+  - first:
+      213: -5062375758521732125
+    second: streets-tilee-v2-32_168
+  - first:
+      213: -5960312953136286898
+    second: streets-tilee-v2-32_169
+  - first:
+      213: -8538560501723469563
+    second: streets-tilee-v2-32_170
+  - first:
+      213: -5520415481289936612
+    second: streets-tilee-v2-32_171
+  - first:
+      213: -6067364848238097349
+    second: streets-tilee-v2-32_172
+  - first:
+      213: 2363984434519986957
+    second: streets-tilee-v2-32_173
+  - first:
+      213: 8812894087700138569
+    second: streets-tilee-v2-32_174
+  - first:
+      213: -8999964809474230399
+    second: streets-tilee-v2-32_175
+  - first:
+      213: -3806150451840082187
+    second: streets-tilee-v2-32_176
+  - first:
+      213: 2633358017129784616
+    second: streets-tilee-v2-32_177
+  - first:
+      213: 75383826873113953
+    second: streets-tilee-v2-32_178
+  - first:
+      213: -2959105237980965710
+    second: streets-tilee-v2-32_179
+  - first:
+      213: -3408507088831107896
+    second: streets-tilee-v2-32_180
+  - first:
+      213: 580389216649944879
+    second: streets-tilee-v2-32_181
+  - first:
+      213: 6857559391851276410
+    second: streets-tilee-v2-32_182
+  - first:
+      213: -8787505491548401516
+    second: streets-tilee-v2-32_183
+  - first:
+      213: 4149374854530459891
+    second: streets-tilee-v2-32_184
+  - first:
+      213: 3644811353608140662
+    second: streets-tilee-v2-32_185
+  - first:
+      213: 1660478415266209228
+    second: streets-tilee-v2-32_186
+  - first:
+      213: 6812853314395252912
+    second: streets-tilee-v2-32_187
+  - first:
+      213: -4351418966628853455
+    second: streets-tilee-v2-32_188
+  - first:
+      213: 3535368120533991828
+    second: streets-tilee-v2-32_189
+  - first:
+      213: -1831702837717879805
+    second: streets-tilee-v2-32_190
+  - first:
+      213: -4190990326348037217
+    second: streets-tilee-v2-32_191
+  - first:
+      213: -9178391073601180451
+    second: streets-tilee-v2-32_192
+  - first:
+      213: -7369031550721588760
+    second: streets-tilee-v2-32_193
+  - first:
+      213: -2611993835763476939
+    second: streets-tilee-v2-32_194
+  - first:
+      213: 1653692877050310346
+    second: streets-tilee-v2-32_195
+  - first:
+      213: 1751246725915006998
+    second: streets-tilee-v2-32_196
+  - first:
+      213: -3416192642915192331
+    second: streets-tilee-v2-32_197
+  - first:
+      213: -3369370526117646056
+    second: streets-tilee-v2-32_198
+  - first:
+      213: -216232594145823343
+    second: streets-tilee-v2-32_199
+  - first:
+      213: 5966007965130125441
+    second: streets-tilee-v2-32_200
+  - first:
+      213: 8626365680415244260
+    second: streets-tilee-v2-32_201
+  - first:
+      213: -3647091386738115799
+    second: streets-tilee-v2-32_202
+  - first:
+      213: 6395314091981387264
+    second: streets-tilee-v2-32_203
+  - first:
+      213: -210269824748717359
+    second: streets-tilee-v2-32_204
+  - first:
+      213: 420413804397527814
+    second: streets-tilee-v2-32_205
+  - first:
+      213: -3434492546393055675
+    second: streets-tilee-v2-32_206
+  - first:
+      213: 7792503891590436570
+    second: streets-tilee-v2-32_207
+  - first:
+      213: 3822885409588530274
+    second: streets-tilee-v2-32_208
+  - first:
+      213: -7155789647387891307
+    second: streets-tilee-v2-32_209
+  - first:
+      213: 2788597728479267936
+    second: streets-tilee-v2-32_210
+  - first:
+      213: -8015037814267326246
+    second: streets-tilee-v2-32_211
+  - first:
+      213: -6746256500421771025
+    second: streets-tilee-v2-32_212
+  - first:
+      213: -1657455404609067798
+    second: streets-tilee-v2-32_213
+  - first:
+      213: 9168213396058712051
+    second: streets-tilee-v2-32_214
+  - first:
+      213: 4919656719088636618
+    second: streets-tilee-v2-32_215
+  - first:
+      213: 9201732501634970069
+    second: streets-tilee-v2-32_216
+  - first:
+      213: -4062671816222835764
+    second: streets-tilee-v2-32_217
+  - first:
+      213: -1207467880648709659
+    second: streets-tilee-v2-32_218
+  - first:
+      213: 8052756747926893217
+    second: streets-tilee-v2-32_219
+  - first:
+      213: 4559049737384695272
+    second: streets-tilee-v2-32_220
+  - first:
+      213: -5024684629345973803
+    second: streets-tilee-v2-32_221
+  - first:
+      213: 5151345119584660942
+    second: streets-tilee-v2-32_222
+  - first:
+      213: 5160553639070642593
+    second: streets-tilee-v2-32_223
+  - first:
+      213: 3407014344346909823
+    second: streets-tilee-v2-32_224
+  - first:
+      213: 7127806988741568889
+    second: streets-tilee-v2-32_225
+  - first:
+      213: 2976447673666691273
+    second: streets-tilee-v2-32_226
+  - first:
+      213: -614495754076647709
+    second: streets-tilee-v2-32_227
+  - first:
+      213: -3087291231906461709
+    second: streets-tilee-v2-32_228
+  - first:
+      213: -4989798565483132659
+    second: streets-tilee-v2-32_229
+  - first:
+      213: -1920305829925000970
+    second: streets-tilee-v2-32_230
+  - first:
+      213: 4032472248770539439
+    second: streets-tilee-v2-32_231
+  - first:
+      213: 2047346696665472713
+    second: streets-tilee-v2-32_232
+  - first:
+      213: -1810856238975764477
+    second: streets-tilee-v2-32_233
+  - first:
+      213: 8301639015210680841
+    second: streets-tilee-v2-32_234
+  - first:
+      213: -1739453890661994269
+    second: streets-tilee-v2-32_235
+  - first:
+      213: -5917783413390353327
+    second: streets-tilee-v2-32_236
+  - first:
+      213: 2741681063686492076
+    second: streets-tilee-v2-32_237
+  - first:
+      213: -7466395000977294544
+    second: streets-tilee-v2-32_238
+  - first:
+      213: 6456834010259676130
+    second: streets-tilee-v2-32_239
+  - first:
+      213: -6135777105408674806
+    second: streets-tilee-v2-32_240
+  - first:
+      213: -7808520780574154140
+    second: streets-tilee-v2-32_241
+  - first:
+      213: 9121082936354905730
+    second: streets-tilee-v2-32_242
+  - first:
+      213: 3086129228222622741
+    second: streets-tilee-v2-32_243
+  - first:
+      213: -2240622974496702034
+    second: streets-tilee-v2-32_244
+  - first:
+      213: -4981642166173229033
+    second: streets-tilee-v2-32_245
+  - first:
+      213: -4440985447333078621
+    second: streets-tilee-v2-32_246
+  - first:
+      213: -5810670859178152823
+    second: streets-tilee-v2-32_247
+  - first:
+      213: 7658161823727690320
+    second: streets-tilee-v2-32_248
+  - first:
+      213: -798719034433101629
+    second: streets-tilee-v2-32_249
+  - first:
+      213: 8643721314508640129
+    second: streets-tilee-v2-32_250
+  - first:
+      213: 6203748925911818704
+    second: streets-tilee-v2-32_251
+  - first:
+      213: -4736019714273529756
+    second: streets-tilee-v2-32_252
+  - first:
+      213: -1018109303246285648
+    second: streets-tilee-v2-32_253
+  - first:
+      213: 1428466035644609769
+    second: streets-tilee-v2-32_254
+  - first:
+      213: -5813555797259850747
+    second: samplessssss_0
+  - first:
+      213: 2927449551522262928
+    second: samplessssss_1
+  - first:
+      213: -1821457050811517725
+    second: samplessssss_2
+  - first:
+      213: 7160552108141428074
+    second: samplessssss_3
+  - first:
+      213: -1239582777698637794
+    second: samplessssss_4
+  - first:
+      213: 7783874062684329070
+    second: samplessssss_5
+  - first:
+      213: 5361979218041192425
+    second: samplessssss_6
+  - first:
+      213: 3576239516511102614
+    second: samplessssss_7
+  - first:
+      213: -4929460491986819846
+    second: samplessssss_8
+  - first:
+      213: -3015527822480433747
+    second: samplessssss_9
+  - first:
+      213: -7915980393996296781
+    second: samplessssss_10
+  - first:
+      213: -6289314598484052292
+    second: samplessssss_11
+  - first:
+      213: 4370010356540886949
+    second: samplessssss_12
+  - first:
+      213: -5461413617148097235
+    second: samplessssss_13
+  - first:
+      213: -3419988626985014789
+    second: samplessssss_14
+  - first:
+      213: -2476274540008222321
+    second: samplessssss_15
+  - first:
+      213: 7360184554223445270
+    second: samplessssss_16
+  - first:
+      213: -1427946903868042722
+    second: samplessssss_17
+  - first:
+      213: 2728702340827786021
+    second: samplessssss_18
+  - first:
+      213: -4620738900253333926
+    second: samplessssss_19
+  - first:
+      213: 5539764785523842770
+    second: samplessssss_20
+  - first:
+      213: -7701312547010680870
+    second: samplessssss_21
+  - first:
+      213: -8713700035172311516
+    second: samplessssss_22
+  - first:
+      213: 2489598140655333952
+    second: samplessssss_23
+  - first:
+      213: 4767962877934333414
+    second: samplessssss_24
+  - first:
+      213: -8919900541190723234
+    second: samplessssss_25
+  - first:
+      213: 8539118506548970534
+    second: samplessssss_26
+  - first:
+      213: 8551382008782005059
+    second: samplessssss_27
+  - first:
+      213: 4206999451729992614
+    second: samplessssss_28
+  - first:
+      213: 7736698960410265444
+    second: samplessssss_29
+  - first:
+      213: -5170275615407403002
+    second: samplessssss_30
+  - first:
+      213: -1722101397156352079
+    second: samplessssss_31
+  - first:
+      213: -5893315761975056193
+    second: samplessssss_32
+  - first:
+      213: -4372683199428242479
+    second: samplessssss_33
+  - first:
+      213: -3420633526683030256
+    second: samplessssss_34
+  - first:
+      213: 1656792395791144979
+    second: samplessssss_35
+  - first:
+      213: -2264843716618802287
+    second: samplessssss_36
+  - first:
+      213: 4244312121055635200
+    second: samplessssss_37
+  - first:
+      213: 35334925995362969
+    second: samplessssss_38
+  - first:
+      213: -2934449418032012833
+    second: samplessssss_39
+  - first:
+      213: -6716593179231342469
+    second: samplessssss_40
+  - first:
+      213: 5160232724308894513
+    second: samplessssss_41
+  - first:
+      213: 9208383578572895700
+    second: samplessssss_42
+  - first:
+      213: -6631539589114419253
+    second: samplessssss_43
+  - first:
+      213: 7828720449322461719
+    second: samplessssss_44
+  - first:
+      213: 3303779896870315449
+    second: samplessssss_45
+  - first:
+      213: -8417900492280712705
+    second: samplessssss_46
+  - first:
+      213: -5945607620803005420
+    second: samplessssss_47
+  - first:
+      213: -1119922738430193050
+    second: samplessssss_48
+  - first:
+      213: 150618795705573958
+    second: samplessssss_49
+  - first:
+      213: 4907181511399664143
+    second: samplessssss_50
+  - first:
+      213: -6578253969463091677
+    second: samplessssss_51
+  - first:
+      213: -2025175639934270392
+    second: samplessssss_52
+  - first:
+      213: -8184799809115185780
+    second: samplessssss_53
+  - first:
+      213: 2142226084441167617
+    second: samplessssss_54
+  - first:
+      213: 3944128177832412133
+    second: samplessssss_55
+  - first:
+      213: -7619535607571112792
+    second: samplessssss_56
+  - first:
+      213: 8068990063786425150
+    second: samplessssss_57
+  - first:
+      213: -5932850498878280744
+    second: samplessssss_58
+  - first:
+      213: 5265760648576396901
+    second: samplessssss_59
+  - first:
+      213: 4567252033631357047
+    second: samplessssss_60
+  - first:
+      213: -4696206098409171048
+    second: samplessssss_61
+  - first:
+      213: 2094439834522738747
+    second: samplessssss_62
+  - first:
+      213: 6821088588098528830
+    second: samplessssss_63
+  - first:
+      213: 5868503360444286293
+    second: samplessssss_64
+  - first:
+      213: 8086032407635585730
+    second: samplessssss_65
+  - first:
+      213: -1477769041479084844
+    second: samplessssss_66
+  - first:
+      213: 6188346221518109268
+    second: samplessssss_67
+  - first:
+      213: 4182252478623482731
+    second: samplessssss_68
+  - first:
+      213: -7183654794790310859
+    second: samplessssss_69
+  - first:
+      213: -5272603113308973984
+    second: samplessssss_70
+  - first:
+      213: -8172691754381788973
+    second: samplessssss_71
+  - first:
+      213: -1224591960359769825
+    second: samplessssss_72
+  - first:
+      213: 5699398724796599795
+    second: samplessssss_73
+  - first:
+      213: -791047090747244409
+    second: samplessssss_74
+  - first:
+      213: -5680646663062579081
+    second: samplessssss_75
+  - first:
+      213: -8490694311100118977
+    second: samplessssss_76
+  - first:
+      213: 1634352556378712666
+    second: samplessssss_77
+  - first:
+      213: 5606275099751530472
+    second: samplessssss_78
+  - first:
+      213: 1780300147718555140
+    second: samplessssss_79
+  - first:
+      213: -3015236242486097691
+    second: samplessssss_80
+  - first:
+      213: 3252085739410271026
+    second: samplessssss_81
+  - first:
+      213: 7584970439779216474
+    second: samplessssss_82
+  - first:
+      213: 5254406778877483492
+    second: samplessssss_83
+  - first:
+      213: -2461529828721494544
+    second: samplessssss_84
+  - first:
+      213: -7980674406514554603
+    second: samplessssss_85
+  - first:
+      213: -4317771749720232685
+    second: samplessssss_86
+  - first:
+      213: 7522713509347038822
+    second: samplessssss_87
+  - first:
+      213: -3006538333066870146
+    second: samplessssss_88
+  - first:
+      213: 6118587349913712691
+    second: samplessssss_89
+  - first:
+      213: 6067238302904128260
+    second: samplessssss_90
+  - first:
+      213: -2082994196450374406
+    second: samplessssss_91
+  - first:
+      213: 1797768251164516001
+    second: samplessssss_92
+  - first:
+      213: -265008669840521309
+    second: samplessssss_93
+  - first:
+      213: 8149697001528948259
+    second: samplessssss_94
+  - first:
+      213: 5433196170060962086
+    second: samplessssss_95
+  - first:
+      213: 6559023291155232103
+    second: samplessssss_96
+  - first:
+      213: 1961425246477046352
+    second: samplessssss_97
+  - first:
+      213: -5853832697855452360
+    second: samplessssss_98
+  - first:
+      213: 7183037300931623869
+    second: samplessssss_99
+  - first:
+      213: 3979754970413331624
+    second: samplessssss_100
+  - first:
+      213: -7011420520642604050
+    second: samplessssss_101
+  - first:
+      213: -8505312391052435072
+    second: samplessssss_102
+  - first:
+      213: 3631640564620011697
+    second: samplessssss_103
+  - first:
+      213: -4525896321035325779
+    second: samplessssss_104
+  - first:
+      213: 3411614225911812167
+    second: samplessssss_105
+  - first:
+      213: -7073257607191019733
+    second: samplessssss_106
+  - first:
+      213: -5650172342830450969
+    second: samplessssss_107
+  - first:
+      213: -6619730298767764085
+    second: samplessssss_108
+  - first:
+      213: -3389738650412568121
+    second: samplessssss_109
+  - first:
+      213: -5387923158075646975
+    second: samplessssss_110
+  - first:
+      213: 6276704318862891991
+    second: samplessssss_111
+  - first:
+      213: -8944572785437281643
+    second: samplessssss_112
+  - first:
+      213: 8100436599042231666
+    second: samplessssss_113
+  - first:
+      213: -3475473586781465380
+    second: samplessssss_114
+  - first:
+      213: 8758390522948828025
+    second: samplessssss_115
+  - first:
+      213: 4531635627782863137
+    second: samplessssss_116
+  - first:
+      213: 5685208009196244380
+    second: samplessssss_117
+  - first:
+      213: -6339432755773576460
+    second: samplessssss_118
+  - first:
+      213: 9180010043954523646
+    second: samplessssss_119
+  - first:
+      213: -3244161010162773414
+    second: samplessssss_120
+  - first:
+      213: -6521437896994817901
+    second: samplessssss_121
+  - first:
+      213: -6022244162193503176
+    second: samplessssss_122
+  - first:
+      213: 422751287997889264
+    second: samplessssss_123
+  - first:
+      213: 340003734044580095
+    second: samplessssss_124
+  - first:
+      213: 7952803622714753262
+    second: samplessssss_125
+  - first:
+      213: 7878499576993155688
+    second: samplessssss_126
+  - first:
+      213: -5724322092573949592
+    second: samplessssss_127
+  - first:
+      213: 8222279348657963778
+    second: samplessssss_128
+  - first:
+      213: 3483793579052780143
+    second: samplessssss_129
+  - first:
+      213: -7343736710153495409
+    second: samplessssss_130
+  - first:
+      213: -1843437243048936177
+    second: samplessssss_131
+  - first:
+      213: -8287336891135348947
+    second: samplessssss_132
+  - first:
+      213: -8938428772045739441
+    second: samplessssss_133
+  - first:
+      213: -8765061893421453336
+    second: samplessssss_134
+  - first:
+      213: -6829880800570484105
+    second: samplessssss_135
+  - first:
+      213: 8225594211358909956
+    second: samplessssss_136
+  - first:
+      213: -7778761467680850361
+    second: samplessssss_137
+  - first:
+      213: -5070291650111611284
+    second: samplessssss_138
+  - first:
+      213: 5600727603571277677
+    second: samplessssss_139
+  - first:
+      213: -3830639998402359303
+    second: samplessssss_140
+  - first:
+      213: 6938329394405582024
+    second: samplessssss_141
+  - first:
+      213: -2998012748054015010
+    second: samplessssss_142
+  - first:
+      213: -1784502116948882210
+    second: samplessssss_143
+  - first:
+      213: 2741450488622945542
+    second: samplessssss_144
+  - first:
+      213: -880917171622797883
+    second: samplessssss_145
+  - first:
+      213: -2860801948030948975
+    second: samplessssss_146
+  - first:
+      213: 5101118198876290683
+    second: samplessssss_147
+  - first:
+      213: 7919202130529896749
+    second: samplessssss_148
+  - first:
+      213: -8607406767142137215
+    second: samplessssss_149
+  - first:
+      213: 3224214800473266392
+    second: samplessssss_150
+  - first:
+      213: -7074682372338871059
+    second: samplessssss_151
+  - first:
+      213: 5125376281400652634
+    second: samplessssss_152
+  - first:
+      213: -5168749409059931011
+    second: samplessssss_153
+  - first:
+      213: 4236633630724901860
+    second: samplessssss_154
+  - first:
+      213: -2091724951381140804
+    second: samplessssss_155
+  - first:
+      213: 6628725974241240922
+    second: samplessssss_156
+  - first:
+      213: -6253457011246909790
+    second: samplessssss_157
+  - first:
+      213: -4587819481170606913
+    second: samplessssss_158
+  - first:
+      213: 1234284332688371510
+    second: samplessssss_159
+  - first:
+      213: -759639439431947399
+    second: samplessssss_160
+  - first:
+      213: -1142052327580406960
+    second: samplessssss_161
+  - first:
+      213: 8216851518845453736
+    second: samplessssss_162
+  - first:
+      213: -7263086543806360259
+    second: samplessssss_163
+  - first:
+      213: -3174870453082193248
+    second: samplessssss_164
+  - first:
+      213: -1801969691290624973
+    second: samplessssss_165
+  - first:
+      213: 8816866027247616779
+    second: samplessssss_166
+  - first:
+      213: -335473350557286434
+    second: samplessssss_167
+  - first:
+      213: 1879223260153188029
+    second: samplessssss_168
+  - first:
+      213: -5900550191502645495
+    second: samplessssss_169
+  - first:
+      213: 1374390061919537058
+    second: samplessssss_170
+  - first:
+      213: -6630484378923468877
+    second: samplessssss_171
+  - first:
+      213: -7740938369083869799
+    second: samplessssss_172
+  - first:
+      213: -639989267928227851
+    second: samplessssss_173
+  - first:
+      213: -2276952359884810215
+    second: samplessssss_174
+  - first:
+      213: 2795831473845113500
+    second: samplessssss_175
+  - first:
+      213: 7735876976816346592
+    second: samplessssss_176
+  - first:
+      213: 4405799044439839375
+    second: samplessssss_177
+  - first:
+      213: -3232457975641220162
+    second: samplessssss_178
+  - first:
+      213: 3941231647483103825
+    second: samplessssss_179
+  - first:
+      213: -3641192040311106139
+    second: samplessssss_180
+  - first:
+      213: -2292916139106969100
+    second: samplessssss_181
+  - first:
+      213: 7308673018799373547
+    second: samplessssss_182
+  - first:
+      213: 5596881977648377146
+    second: samplessssss_183
+  - first:
+      213: -1370392227905932248
+    second: samplessssss_184
+  - first:
+      213: -5444885131919713993
+    second: samplessssss_185
+  - first:
+      213: -830190871328434817
+    second: samplessssss_186
+  - first:
+      213: -98904798150683951
+    second: samplessssss_187
+  - first:
+      213: -8219125015723495442
+    second: samplessssss_188
+  - first:
+      213: -2734343886831976408
+    second: samplessssss_189
+  - first:
+      213: 1256406237878953251
+    second: samplessssss_190
+  - first:
+      213: -7649425513057356666
+    second: samplessssss_191
+  - first:
+      213: 5581190365582316566
+    second: samplessssss_192
+  - first:
+      213: -78001160629501710
+    second: samplessssss_193
+  - first:
+      213: 8332797592801737484
+    second: samplessssss_194
+  - first:
+      213: -6301229372155520761
+    second: samplessssss_195
+  - first:
+      213: -2041161573861628421
+    second: samplessssss_196
+  - first:
+      213: 186077766070974475
+    second: samplessssss_197
+  - first:
+      213: 2910448424296744751
+    second: samplessssss_198
+  - first:
+      213: 2652564451381083299
+    second: samplessssss_199
+  - first:
+      213: 9039895643663404672
+    second: samplessssss_200
+  - first:
+      213: 2276910978997605059
+    second: samplessssss_201
+  - first:
+      213: 1160306015448618650
+    second: samplessssss_202
+  - first:
+      213: 8561971300030299763
+    second: samplessssss_203
+  - first:
+      213: -1844502008780018049
+    second: samplessssss_204
+  - first:
+      213: -5341523013723804740
+    second: samplessssss_205
+  - first:
+      213: 7107459478146657595
+    second: samplessssss_206
+  - first:
+      213: 7081597821487218178
+    second: samplessssss_207
+  - first:
+      213: 2408227422974762700
+    second: samplessssss_208
+  - first:
+      213: -3705433157763450777
+    second: samplessssss_209
+  - first:
+      213: 4135262946587216054
+    second: samplessssss_210
+  - first:
+      213: -225566870878721681
+    second: samplessssss_211
+  - first:
+      213: 2871223196604496189
+    second: samplessssss_212
+  - first:
+      213: -3747675550946413855
+    second: samplessssss_213
+  - first:
+      213: 8513396127276537141
+    second: samplessssss_214
+  - first:
+      213: 4032981961926476333
+    second: samplessssss_215
+  - first:
+      213: -2020233526817631805
+    second: samplessssss_216
+  - first:
+      213: -5297467300541396612
+    second: samplessssss_217
+  - first:
+      213: -3975872454560546084
+    second: samplessssss_218
+  - first:
+      213: -2420336603765513249
+    second: samplessssss_219
+  - first:
+      213: -5983017286058339896
+    second: samplessssss_220
+  - first:
+      213: 5139924381135868414
+    second: samplessssss_221
+  - first:
+      213: -3559544719828392338
+    second: samplessssss_222
+  - first:
+      213: -4086954690544375374
+    second: samplessssss_223
+  - first:
+      213: -5895409435194975720
+    second: samplessssss_224
+  - first:
+      213: 5394913767543426974
+    second: samplessssss_225
+  - first:
+      213: -7961679780601027147
+    second: samplessssss_226
+  - first:
+      213: -9139253935279771636
+    second: samplessssss_229
+  - first:
+      213: 3545144388373244733
+    second: samplessssss_230
+  - first:
+      213: 757911642470651731
+    second: samplessssss_231
+  - first:
+      213: 8007418989712308301
+    second: samplessssss_232
+  - first:
+      213: 5142113880390822310
+    second: samplessssss_233
+  - first:
+      213: -8055464344999369685
+    second: samplessssss_234
+  - first:
+      213: 6545716953136290298
+    second: samplessssss_235
+  - first:
+      213: -7798047342261654356
+    second: samplessssss_236
+  - first:
+      213: -1628751762004823239
+    second: samplessssss_237
+  - first:
+      213: -1261789247063236851
+    second: samplessssss_238
+  - first:
+      213: 7956656994271509130
+    second: samplessssss_239
+  - first:
+      213: -1655057967817089433
+    second: samplessssss_240
+  - first:
+      213: -3107718333056547258
+    second: samplessssss_241
+  - first:
+      213: 3087309559506208613
+    second: samplessssss_245
+  - first:
+      213: 6151075492601737422
+    second: samplessssss_246
+  - first:
+      213: 7639373565518675413
+    second: samplessssss_247
+  - first:
+      213: -6920484220286253050
+    second: samplessssss_248
+  - first:
+      213: 2747738490321749589
+    second: samplessssss_249
+  - first:
+      213: -2764671763830737279
+    second: samplessssss_250
+  - first:
+      213: 6851637953044227825
+    second: samplessssss_251
+  - first:
+      213: -492794219600061893
+    second: samplessssss_252
+  - first:
+      213: -3903968898344540263
+    second: samplessssss_253
+  - first:
+      213: 8875951582553139634
+    second: samplessssss_254
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: samplessssss_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 454
+        width: 58
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ce96ecdc9125fa0800000000000000
+      internalID: -5813555797259850747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: samplessssss_1
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 448
+        width: 59
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09f6c585bd360a820800000000000000
+      internalID: 2927449551522262928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: samplessssss_2
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 454
+        width: 59
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e4bfb87672e8b6e0800000000000000
+      internalID: -1821457050811517725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: samplessssss_3
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 454
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6db17144346f5360800000000000000
+      internalID: 7160552108141428074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: samplessssss_4
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 481
+        width: 128
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e18a491080e1ccee0800000000000000
+      internalID: -1239582777698637794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: samplessssss_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 389
+        width: 63
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e641da22830e50c60800000000000000
+      internalID: 7783874062684329070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: samplessssss_6
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 394
+        width: 58
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ef3f5890b3996a40800000000000000
+      internalID: 5361979218041192425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: samplessssss_7
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 390
+        width: 58
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 696eb5d74ea51a130800000000000000
+      internalID: 3576239516511102614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: samplessssss_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 289
+        width: 128
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af4adc8ccc9079bb0800000000000000
+      internalID: -4929460491986819846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: samplessssss_9
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 322
+        width: 25
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad1fb22c61b626d0800000000000000
+      internalID: -3015527822480433747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: samplessssss_10
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 338
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bdd4e6b5c9c42290800000000000000
+      internalID: -7915980393996296781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: samplessssss_11
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 357
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb6fda4e1bdd7b8a0800000000000000
+      internalID: -6289314598484052292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: samplessssss_12
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 354
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5afc566144565ac30800000000000000
+      internalID: 4370010356540886949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: samplessssss_13
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 332
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2d086240492534b0800000000000000
+      internalID: -5461413617148097235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: samplessssss_14
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 320
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf9aea0b672c980d0800000000000000
+      internalID: -3419988626985014789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: samplessssss_15
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 266
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f81577cfc6182add0800000000000000
+      internalID: -2476274540008222321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: samplessssss_16
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 277
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6152ecb2bd0a42660800000000000000
+      internalID: 7360184554223445270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: samplessssss_17
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 294
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1293d44bd9ee2ce0800000000000000
+      internalID: -1427946903868042722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: samplessssss_18
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 233
+        width: 11
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52b21da525c4ed520800000000000000
+      internalID: 2728702340827786021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: samplessssss_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 225
+        width: 64
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a562292b376dfdfb0800000000000000
+      internalID: -4620738900253333926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: samplessssss_20
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 226
+        width: 28
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dedd54b8b231ec40800000000000000
+      internalID: 5539764785523842770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: samplessssss_21
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 271
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad76b23ba017f1590800000000000000
+      internalID: -7701312547010680870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: samplessssss_22
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 264
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42ede343cf7b21780800000000000000
+      internalID: -8713700035172311516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: samplessssss_23
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 235
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 042fb378154dc8220800000000000000
+      internalID: 2489598140655333952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: samplessssss_24
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 383
+        width: 65
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ed6689c9f43b2240800000000000000
+      internalID: 4767962877934333414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: samplessssss_25
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 226
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e59238aa7b5263480800000000000000
+      internalID: -8919900541190723234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: samplessssss_26
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 234
+        width: 26
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 624c0dd1a0b018670800000000000000
+      internalID: 8539118506548970534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: samplessssss_27
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 234
+        width: 79
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3432e1c31ac9ca670800000000000000
+      internalID: 8551382008782005059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: samplessssss_28
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 211
+        width: 64
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ab11a236b3426a30800000000000000
+      internalID: 4206999451729992614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: samplessssss_29
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 129
+        width: 122
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4674365b6b64e5b60800000000000000
+      internalID: 7736698960410265444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: samplessssss_30
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 197
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60017c898bd7f38b0800000000000000
+      internalID: -5170275615407403002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: samplessssss_31
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 161
+        width: 75
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bfaa4347edd918e0800000000000000
+      internalID: -1722101397156352079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: samplessssss_32
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 194
+        width: 64
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb82442e98cb63ea0800000000000000
+      internalID: -5893315761975056193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: samplessssss_33
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 67
+        width: 46
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d3d2ce2ccb1153c0800000000000000
+      internalID: -4372683199428242479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: samplessssss_34
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 67
+        width: 50
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01d24474ee77780d0800000000000000
+      internalID: -3420633526683030256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: samplessssss_35
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 127
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31813b9e7eb1ef610800000000000000
+      internalID: 1656792395791144979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: samplessssss_36
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 127
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19b292fa3a8a190e0800000000000000
+      internalID: -2264843716618802287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: samplessssss_37
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 96
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 007e7630363d6ea30800000000000000
+      internalID: 4244312121055635200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: samplessssss_38
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 96
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99a4e109de88d7000800000000000000
+      internalID: 35334925995362969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: samplessssss_39
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 96
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd1a9da3dcdb647d0800000000000000
+      internalID: -2934449418032012833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: samplessssss_40
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 64
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b70ba1be61ed9c2a0800000000000000
+      internalID: -6716593179231342469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: samplessssss_41
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 45
+        width: 20
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13327ca9254dc9740800000000000000
+      internalID: 5160232724308894513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: samplessssss_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 96
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d5b06c9310cacf70800000000000000
+      internalID: 9208383578572895700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: samplessssss_43
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 7
+        width: 85
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc725ec01e908f3a0800000000000000
+      internalID: -6631539589114419253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: samplessssss_44
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 9
+        width: 85
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71aa3b335c335ac60800000000000000
+      internalID: 7828720449322461719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: samplessssss_45
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 9
+        width: 79
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b52801ef4269dd20800000000000000
+      internalID: 3303779896870315449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: samplessssss_46
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 6
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff1b50b2a1c9d2b80800000000000000
+      internalID: -8417900492280712705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: samplessssss_47
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 420
+        width: 36
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4147e2cbe55fc7da0800000000000000
+      internalID: -5945607620803005420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: samplessssss_48
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 132
+        width: 53
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6625cf7f33c3570f0800000000000000
+      internalID: -1119922738430193050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
