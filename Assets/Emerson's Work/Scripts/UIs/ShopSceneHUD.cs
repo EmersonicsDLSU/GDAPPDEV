@@ -38,6 +38,7 @@ public class ShopSceneHUD : MonoBehaviour
 
     public void loadMainMenu()
     {
+        AudioManagerScript.instance.stopSound("ShopMusic");
         LoaderScript.loadScene(0, SceneManager.sceneCountInBuildSettings - 1);
         GameSceneScript.Instance.currentScene = 0;
         Debug.Log("loadMainMenu");

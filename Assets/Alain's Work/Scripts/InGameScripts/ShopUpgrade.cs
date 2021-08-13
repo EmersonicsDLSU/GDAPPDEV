@@ -113,7 +113,7 @@ public class ShopUpgrade : MonoBehaviour
                 break;
             case (int)GunTypes.Green:
                 GreenadeLauncherScript gun1 = GameObject.FindObjectOfType<GreenadeLauncherScript>();
-                if (gunDamageLvl[1] < MAX_LEVEL && GameCredit.gameMoney >= greenCost[gunDamageLvl[0]])
+                if (gunDamageLvl[1] < MAX_LEVEL && GameCredit.gameMoney >= greenCost[gunDamageLvl[1]])
                 {
                     GameCredit.DeductCurrency(greenCost[gunDamageLvl[0] - 1]);
                  
@@ -132,7 +132,7 @@ public class ShopUpgrade : MonoBehaviour
                 break;
             case (int)GunTypes.Red:
                 RedLaserScript gun2 = GameObject.FindObjectOfType<RedLaserScript>();
-                if (gunDamageLvl[2] < MAX_LEVEL && GameCredit.gameMoney >= redCost[gunDamageLvl[0]])
+                if (gunDamageLvl[2] < MAX_LEVEL && GameCredit.gameMoney >= redCost[gunDamageLvl[2]])
                 {
                     GameCredit.DeductCurrency(redCost[gunDamageLvl[0] - 1]);
                  
@@ -178,7 +178,7 @@ public class ShopUpgrade : MonoBehaviour
                 break;
             case (int)GunTypes.Green:
                 GreenadeLauncherScript gun1 = GameObject.FindObjectOfType<GreenadeLauncherScript>();
-                if (gunFireRateLvl[1] < MAX_LEVEL && GameCredit.gameMoney >= greenCost[gunFireRateLvl[0]])
+                if (gunFireRateLvl[1] < MAX_LEVEL && GameCredit.gameMoney >= greenCost[gunFireRateLvl[1]])
                 {
                     GameCredit.DeductCurrency(greenCost[gunFireRateLvl[0] - 1]);
                   
@@ -197,7 +197,7 @@ public class ShopUpgrade : MonoBehaviour
                 break;
             case (int)GunTypes.Red:
                 RedLaserScript gun2 = GameObject.FindObjectOfType<RedLaserScript>();
-                if (gunFireRateLvl[2] < MAX_LEVEL && GameCredit.gameMoney >= redCost[gunFireRateLvl[0]])
+                if (gunFireRateLvl[2] < MAX_LEVEL && GameCredit.gameMoney >= redCost[gunFireRateLvl[2]])
                 {
                     GameCredit.DeductCurrency(redCost[gunFireRateLvl[0] - 1]);
               
@@ -244,7 +244,7 @@ public class ShopUpgrade : MonoBehaviour
                 break;
             case (int)GunTypes.Green:
                 GreenadeLauncherScript gun1 = GameObject.FindObjectOfType<GreenadeLauncherScript>();
-                if (gunMagazineLvl[1] < MAX_LEVEL && GameCredit.gameMoney >= greenCost[gunMagazineLvl[0]])
+                if (gunMagazineLvl[1] < MAX_LEVEL && GameCredit.gameMoney >= greenCost[gunMagazineLvl[1]])
                 {
                     GameCredit.DeductCurrency(greenCost[gunMagazineLvl[0] - 1]);
                   
@@ -263,7 +263,7 @@ public class ShopUpgrade : MonoBehaviour
                 break;
             case (int)GunTypes.Red:
                 RedLaserScript gun2 = GameObject.FindObjectOfType<RedLaserScript>();
-                if (gunMagazineLvl[2] < MAX_LEVEL && GameCredit.gameMoney >= redCost[gunMagazineLvl[0]])
+                if (gunMagazineLvl[2] < MAX_LEVEL && GameCredit.gameMoney >= redCost[gunMagazineLvl[2]])
                 {
                     GameCredit.DeductCurrency(redCost[gunMagazineLvl[0] - 1]);
              

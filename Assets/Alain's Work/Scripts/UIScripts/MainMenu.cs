@@ -16,6 +16,25 @@ public class MainMenu : MonoBehaviour
     [SerializeField] private GameObject parent1;
     [SerializeField] private GameObject parent2;
     [SerializeField] private GameObject parent3;
+    [SerializeField] private GameObject parent4;
+
+
+    public void loadHowToPlay()
+    {
+        this.parent1.SetActive(false);
+        this.parent2.SetActive(false);
+        this.parent3.SetActive(false);
+        this.parent4.SetActive(true);
+    }
+
+    public void backFromHTPly()
+    {
+        this.parent1.SetActive(false);
+        this.parent2.SetActive(true);
+        this.parent3.SetActive(false);
+        this.parent4.SetActive(false);
+    }
+
 
     // Start is called before the first frame update
     void Start()
