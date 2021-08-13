@@ -123,11 +123,11 @@ public class FireButtonScript : MonoBehaviour, IPointerDownHandler, IPointerExit
                 rb.AddForce(new Vector2(-blueGun.dirX, -blueGun.dirY) * recoilDistance, ForceMode2D.Impulse);
                 break;
             case PlayerStatistics.sGreenGun:
-                RedLaserScript greenGun = gunHolder.GetComponentInChildren<RedLaserScript>();
+                GreenadeLauncherScript greenGun = gunHolder.GetComponentInChildren<GreenadeLauncherScript>();
                 rb.AddForce(new Vector2(-greenGun.dirX, -greenGun.dirY) * recoilDistance, ForceMode2D.Impulse);
                 break;
             case PlayerStatistics.sRedGun:
-                GreenadeLauncherScript redGun = gunHolder.GetComponentInChildren<GreenadeLauncherScript>();
+                RedLaserScript redGun = gunHolder.GetComponentInChildren<RedLaserScript>();
                 rb.AddForce(new Vector2(-redGun.dirX, -redGun.dirY) * recoilDistance, ForceMode2D.Impulse);
                 break;
         }
