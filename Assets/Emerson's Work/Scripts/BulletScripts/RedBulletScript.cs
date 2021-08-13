@@ -51,6 +51,7 @@ public class RedBulletScript : MonoBehaviour, IGunModel, IBullet
     //spawns the bullet into its selected location
     public void createBullet(ref GameObject bullet)
     {
+        Debug.Log("red bullet spawn");
         //get gun
         GameObject gun = GameObject.FindGameObjectWithTag("Gun");
 

@@ -94,10 +94,9 @@ public class ShopUpgrade : MonoBehaviour
         {
             case (int)GunTypes.Blue:
                 IceShotgunScript gun = GameObject.FindObjectOfType<IceShotgunScript>();
-                if (gunDamageLvl[0] < MAX_LEVEL && GameCredit.gameMoney >= blueCost[gunDamageLvl[0]])
+                if (gunDamageLvl[0] < MAX_LEVEL && GameCredit.gameMoney >= blueCost[gunDamageLvl[0] - 1])
                 {
                     GameCredit.DeductCurrency(blueCost[gunDamageLvl[0] - 1]);
-                  
                     FindObjectOfType<AudioManagerScript>().playSound("ShopButton");
                     if (this.gunDamageLvl[0] < MAX_LEVEL)
                     {
@@ -113,10 +112,9 @@ public class ShopUpgrade : MonoBehaviour
                 break;
             case (int)GunTypes.Green:
                 GreenadeLauncherScript gun1 = GameObject.FindObjectOfType<GreenadeLauncherScript>();
-                if (gunDamageLvl[1] < MAX_LEVEL && GameCredit.gameMoney >= greenCost[gunDamageLvl[1]])
+                if (gunDamageLvl[1] < MAX_LEVEL && GameCredit.gameMoney >= greenCost[gunDamageLvl[1] - 1])
                 {
-                    GameCredit.DeductCurrency(greenCost[gunDamageLvl[0] - 1]);
-                 
+                    GameCredit.DeductCurrency(greenCost[gunDamageLvl[1] - 1]);
                     FindObjectOfType<AudioManagerScript>().playSound("ShopButton");
                     if (this.gunDamageLvl[1] < MAX_LEVEL)
                     {
@@ -132,10 +130,9 @@ public class ShopUpgrade : MonoBehaviour
                 break;
             case (int)GunTypes.Red:
                 RedLaserScript gun2 = GameObject.FindObjectOfType<RedLaserScript>();
-                if (gunDamageLvl[2] < MAX_LEVEL && GameCredit.gameMoney >= redCost[gunDamageLvl[2]])
+                if (gunDamageLvl[2] < MAX_LEVEL && GameCredit.gameMoney >= redCost[gunDamageLvl[2] - 1])
                 {
-                    GameCredit.DeductCurrency(redCost[gunDamageLvl[0] - 1]);
-                 
+                    GameCredit.DeductCurrency(redCost[gunDamageLvl[2] - 1]);
                     FindObjectOfType<AudioManagerScript>().playSound("ShopButton");
                     if (this.gunDamageLvl[2] < MAX_LEVEL)
                     {
@@ -159,7 +156,7 @@ public class ShopUpgrade : MonoBehaviour
         {
             case (int)GunTypes.Blue:
                 IceShotgunScript gun = GameObject.FindObjectOfType<IceShotgunScript>();
-                if (gunFireRateLvl[0] < MAX_LEVEL && GameCredit.gameMoney >= blueCost[gunFireRateLvl[0]])
+                if (gunFireRateLvl[0] < MAX_LEVEL && GameCredit.gameMoney >= blueCost[gunFireRateLvl[0] - 1])
                 {
                     GameCredit.DeductCurrency(blueCost[gunFireRateLvl[0] - 1]);
                     FindObjectOfType<AudioManagerScript>().playSound("ShopButton");
@@ -177,10 +174,9 @@ public class ShopUpgrade : MonoBehaviour
                 break;
             case (int)GunTypes.Green:
                 GreenadeLauncherScript gun1 = GameObject.FindObjectOfType<GreenadeLauncherScript>();
-                if (gunFireRateLvl[1] < MAX_LEVEL && GameCredit.gameMoney >= greenCost[gunFireRateLvl[1]])
+                if (gunFireRateLvl[1] < MAX_LEVEL && GameCredit.gameMoney >= greenCost[gunFireRateLvl[1] - 1])
                 {
                     GameCredit.DeductCurrency(greenCost[gunFireRateLvl[1] - 1]);
-                  
                     FindObjectOfType<AudioManagerScript>().playSound("ShopButton");
                     if (this.gunFireRateLvl[1] < MAX_LEVEL)
                     {
@@ -196,10 +192,9 @@ public class ShopUpgrade : MonoBehaviour
                 break;
             case (int)GunTypes.Red:
                 RedLaserScript gun2 = GameObject.FindObjectOfType<RedLaserScript>();
-                if (gunFireRateLvl[2] < MAX_LEVEL && GameCredit.gameMoney >= redCost[gunFireRateLvl[2]])
+                if (gunFireRateLvl[2] < MAX_LEVEL && GameCredit.gameMoney >= redCost[gunFireRateLvl[2] - 1])
                 {
                     GameCredit.DeductCurrency(redCost[gunFireRateLvl[2] - 1]);
-              
                     FindObjectOfType<AudioManagerScript>().playSound("ShopButton");
                     if (this.gunFireRateLvl[2] < MAX_LEVEL)
                     {
@@ -224,7 +219,7 @@ public class ShopUpgrade : MonoBehaviour
         {
             case (int)GunTypes.Blue:
                 IceShotgunScript gun = GameObject.FindObjectOfType<IceShotgunScript>();
-                if (gunMagazineLvl[0] < MAX_LEVEL && GameCredit.gameMoney >= blueCost[gunMagazineLvl[0]])
+                if (gunMagazineLvl[0] < MAX_LEVEL && GameCredit.gameMoney >= blueCost[gunMagazineLvl[0] - 1])
                 {
                     GameCredit.DeductCurrency(blueCost[gunMagazineLvl[0] - 1]);
                    
@@ -243,7 +238,7 @@ public class ShopUpgrade : MonoBehaviour
                 break;
             case (int)GunTypes.Green:
                 GreenadeLauncherScript gun1 = GameObject.FindObjectOfType<GreenadeLauncherScript>();
-                if (gunMagazineLvl[1] < MAX_LEVEL && GameCredit.gameMoney >= greenCost[gunMagazineLvl[1]])
+                if (gunMagazineLvl[1] < MAX_LEVEL && GameCredit.gameMoney >= greenCost[gunMagazineLvl[1] - 1])
                 {
                     GameCredit.DeductCurrency(greenCost[gunMagazineLvl[1] - 1]);
                   
@@ -262,7 +257,7 @@ public class ShopUpgrade : MonoBehaviour
                 break;
             case (int)GunTypes.Red:
                 RedLaserScript gun2 = GameObject.FindObjectOfType<RedLaserScript>();
-                if (gunMagazineLvl[2] < MAX_LEVEL && GameCredit.gameMoney >= redCost[gunMagazineLvl[2]])
+                if (gunMagazineLvl[2] < MAX_LEVEL && GameCredit.gameMoney >= redCost[gunMagazineLvl[2] - 1])
                 {
                     GameCredit.DeductCurrency(redCost[gunMagazineLvl[2] - 1]);
              
@@ -296,7 +291,7 @@ public class ShopUpgrade : MonoBehaviour
         PlayerStatistics health;
         health = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerStatistics>();
         //guide here
-        if (playerlevel[0] < MAX_LEVEL && GameCredit.gameMoney >= healthCost[playerlevel[0]])
+        if (playerlevel[0] < MAX_LEVEL && GameCredit.gameMoney >= healthCost[playerlevel[0] - 1])
         {
             //guide here
             GameCredit.DeductCurrency(healthCost[playerlevel[0] - 1]);
@@ -320,7 +315,7 @@ public class ShopUpgrade : MonoBehaviour
         Text buttonText = UnityEngine.EventSystems.EventSystem.current.currentSelectedGameObject.GetComponentInChildren<Text>();
         PlayerStatistics speed;
         speed = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerStatistics>();
-        if (playerlevel[1] < MAX_LEVEL && GameCredit.gameMoney >= speedCost[playerlevel[1]])
+        if (playerlevel[1] < MAX_LEVEL && GameCredit.gameMoney >= speedCost[playerlevel[1] - 1])
         {
             GameCredit.DeductCurrency(speedCost[playerlevel[1] - 1]);
             FindObjectOfType<AudioManagerScript>().playSound("ShopButton");

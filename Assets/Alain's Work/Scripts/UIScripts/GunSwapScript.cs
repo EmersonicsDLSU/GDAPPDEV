@@ -58,7 +58,7 @@ public class GunSwapScript : MonoBehaviour
         {
             case 0:
                 playerStats.currentBullet = PlayerStatistics.sBlueBul;
-                playerStats.currentGun = PlayerStatistics.sBlueBul;
+                playerStats.currentGun = PlayerStatistics.sBlueGun;
                 break;
             case 1:
                 playerStats.currentBullet = PlayerStatistics.sGreenBul;

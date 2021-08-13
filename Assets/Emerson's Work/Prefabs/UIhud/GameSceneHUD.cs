@@ -11,8 +11,8 @@ public class GameSceneHUD : MonoBehaviour
     [SerializeField] private Text IngameCreditsText;
 
     private int earn_Credits = 0;
-    private float game_timer = 10.0f;
-    private float max_game_timer = 10.0f;
+    private float game_timer = 160.0f;
+    private float max_game_timer = 160.0f;
 
     private PlayerStatistics playerStats;
     // Start is called before the first frame update

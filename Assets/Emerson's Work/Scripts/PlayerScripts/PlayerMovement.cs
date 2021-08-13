@@ -62,7 +62,6 @@ public class PlayerMovement : MonoBehaviour
 
     public void playerMove()
     {
-        Debug.Log("Move");
         //gets the raw float value of the player's movement
         MovementX = joystick.Horizontal;
         MovementY = joystick.Vertical;

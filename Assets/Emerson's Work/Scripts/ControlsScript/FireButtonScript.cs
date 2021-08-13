@@ -96,7 +96,7 @@ public class FireButtonScript : MonoBehaviour, IPointerDownHandler, IPointerExit
 
     private void FixedUpdate()
     {
-        if(isRecoil)
+        if (isRecoil)
         {
             recoilTime -= Time.deltaTime;
             if(recoilTime <= 0.0f)
