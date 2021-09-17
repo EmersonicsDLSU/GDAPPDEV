@@ -58,4 +58,20 @@ public class MudGuardAnimation : MonoBehaviour, ICharacterAnimations, IEnemyFunc
     {
         AudioManagerScript.instance.playSound("EnemyKill");
     }
+    public void refreshEnemy()
+    {
+        //starts the movement
+        EnemyMovement tempMove = GetComponent<EnemyMovement>();
+        tempMove.startMovement();
+        //full health again
+        EnemyStatistics tempStats = GetComponent<EnemyStatistics>();
+        tempStats.enemyHealth = tempStats.enemyMaxHealth;
+        //set dead statuts to false
+        tempStats.isDead = false;
+    }
+
+    public void hitSound()
+    {
+        //AudioManagerScript.instance.playSoundOne("BrownTalk");
+    }
 }

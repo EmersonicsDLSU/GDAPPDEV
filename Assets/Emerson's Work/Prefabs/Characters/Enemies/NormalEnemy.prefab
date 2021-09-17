@@ -46,11 +46,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4372b8c54fcd2814dbd1604bd6bf30df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemySpeed: 3
+  spawnerSource: 
+  enemySpeed: 2.5
   enemyDamage: 5
   color_type: NORMAL_ENEMY
-  enemyHealth: 50
-  enemyMaxHealth: 50
+  enemyHealth: 150
+  enemyMaxHealth: 150
   vulnerable: 1
   isDead: 0
 --- !u!114 &5862431011217743848
@@ -78,6 +79,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   aiPath: {fileID: 5889564046251022349}
+  m_FacingRight: 0
 --- !u!1 &5889564045663920018
 GameObject:
   m_ObjectHideFlags: 0
@@ -148,7 +150,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1809503305
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 6084859605308855041, guid: 67f5aa59fb03b8144bd35eba5b2e5bc8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -195,6 +197,7 @@ GameObject:
   - component: {fileID: 5889564046251022345}
   - component: {fileID: 5889564046251022358}
   - component: {fileID: 4205600351884225107}
+  - component: {fileID: 1482773561710196320}
   m_Layer: 0
   m_Name: NormalEnemy
   m_TagString: Enemies
@@ -326,7 +329,7 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -345,6 +348,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99aa2c69cd1d53c4fb8860d90d063caa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1482773561710196320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5889564046251022348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ffc306cfd812f9469a1e813f1e9e41a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &6446395309094658859
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -358,6 +373,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4707358281142847062, guid: 424a3121539b5a049b8d19beb938f2d8, type: 3}
       propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4707358281142847063, guid: 424a3121539b5a049b8d19beb938f2d8, type: 3}
+      propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4707358281414142963, guid: 424a3121539b5a049b8d19beb938f2d8, type: 3}
@@ -398,11 +417,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4707358281414142963, guid: 424a3121539b5a049b8d19beb938f2d8, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.2
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 4707358281414142963, guid: 424a3121539b5a049b8d19beb938f2d8, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.2
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 4707358281414142963, guid: 424a3121539b5a049b8d19beb938f2d8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -459,6 +478,18 @@ PrefabInstance:
     - target: {fileID: 4707358281414142967, guid: 424a3121539b5a049b8d19beb938f2d8, type: 3}
       propertyPath: m_Name
       value: HealthBarCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 4707358281414142967, guid: 424a3121539b5a049b8d19beb938f2d8, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4707358282239768651, guid: 424a3121539b5a049b8d19beb938f2d8, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4707358282584831040, guid: 424a3121539b5a049b8d19beb938f2d8, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 424a3121539b5a049b8d19beb938f2d8, type: 3}

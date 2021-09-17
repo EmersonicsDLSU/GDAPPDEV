@@ -381,6 +381,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CanvasGameControls
       objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 410679585955c7e449bae4ab26b19605, type: 3}
 --- !u!1 &1571299916
@@ -576,6 +580,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5920150480873092109, guid: 99373adabc33c494991c57bea95532f5, type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5920150480873092111, guid: 99373adabc33c494991c57bea95532f5, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -586,7 +594,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5920150480873092111, guid: 99373adabc33c494991c57bea95532f5, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5920150480873092111, guid: 99373adabc33c494991c57bea95532f5, type: 3}
       propertyPath: m_AnchorMax.x

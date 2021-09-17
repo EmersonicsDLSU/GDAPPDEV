@@ -5,7 +5,7 @@ using UnityEngine;
 public static class GeneralAnimationProperty
 {
     [Tooltip("Delay the destroy of the obj to showcase animation")]
-    public static float mud_dead_delay = 0.5f;
+    public static float mud_dead_delay = 0.7f;
     [Tooltip("Delay the destroy of the obj to showcase animation")]
     public static float RB_dead_delay = 0.5f;
     [Tooltip("Delay the destroy of the obj to showcase animation")]

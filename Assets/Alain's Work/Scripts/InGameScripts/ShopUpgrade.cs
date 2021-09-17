@@ -4,23 +4,24 @@ using UnityEngine;
 using UnityEngine.UI;
 public class ShopUpgrade : MonoBehaviour
 {
+
     public enum GunTypes { Blue = 0, Green, Red};
     //shotgun Room for upgrades
-    private float[] shotgunDamage = { 10, 20, 30, 40, 50 };
-    private float[] shotgunFireRate = { 1, 2, 3, 4, 5 };
+    private float[] shotgunDamage = { 10, 15, 20, 25, 30 };
+    private float[] shotgunFireRate = { 1, 0.9f, 0.85f, 0.8f, 0.75f };
     private int[] shotgunMagazine = { 8, 9, 10, 11, 12 };
     //grenade Launcher Room for upgrades
-    private float[] grenadeLauncherDamage = { 10, 20, 30, 40, 50 };
-    private float[] grenadeLauncherFireRate = { 1, 2, 3, 4, 5 };
-    private int[] grenadeLauncherMagazine = { 8, 9, 10, 11, 12 };
+    private float[] grenadeLauncherDamage = { 15, 20, 25, 30, 40 };
+    private float[] grenadeLauncherFireRate = { 1.5f, 1.4f, 1.3f, 1.2f, 1.1f };
+    private int[] grenadeLauncherMagazine = { 5, 6, 7, 8, 10 };
     //Laser gun Room for upgrades
-    private float[] lasergunDamage = { 10, 20, 30, 40, 50 };
-    private float[] lasergunFireRate = { 1, 2, 3, 4, 5 };
-    private int[] lasergunMagazine = { 8, 9, 10, 11, 12 };
+    private float[] lasergunDamage = { 5, 7, 9, 12, 15 };
+    private float[] lasergunFireRate = { 0.5f, 0.45f, 0.4f, 0.35f, 0.3f };
+    private int[] lasergunMagazine = { 20, 24, 28, 32, 35 };
     //guns current levels; blue, green, red index
-    private int[] gunDamageLvl = { 1, 1, 1}; 
-    private int[] gunFireRateLvl = { 1, 1, 1};
-    private int[] gunMagazineLvl = { 1, 1, 1};
+    [HideInInspector] public int[] gunDamageLvl = { 1, 1, 1};
+    [HideInInspector] public int[] gunFireRateLvl = { 1, 1, 1};
+    [HideInInspector] public int[] gunMagazineLvl = { 1, 1, 1};
     //gun properties
     private const int MAX_LEVEL = 5;
 
@@ -29,10 +30,10 @@ public class ShopUpgrade : MonoBehaviour
 
     private GameCredit credit;
 
-
-    private float[] blueCost = { 200, 600, 800, 1000, 0 }; //this is the cost per level
-    private float[] greenCost = { 300, 600, 900, 1200, 0 }; //this is the cost per level
-    private float[] redCost = { 300, 800, 1600, 2400, 0 }; //this is the cost per level
+    private float[] blueCost = { 400, 1000, 1400, 1800, 0 }; //this is the cost per level
+    private float[] greenCost = { 500, 1200, 1600, 2400, 0 }; //this is the cost per level
+    private float[] redCost = { 400, 900, 1300, 1800, 0 }; //this is the cost per level
+    
 
     private void OnEnable()
     {
@@ -62,6 +63,7 @@ public class ShopUpgrade : MonoBehaviour
     {
         initializeGun();
         AudioManagerScript.instance.playSound("ShopMusic");
+        
     }
 
     public void Update()
@@ -277,13 +279,13 @@ public class ShopUpgrade : MonoBehaviour
         }
     }
 
-    private float[] PlayerHealth = { 100, 105, 110, 115 , 130};
-    private float[] PlayerSpeed = { 5, 6, 7, 8, 9 };
+    private float[] PlayerHealth = { 150, 180, 220, 250 , 300};
+    private float[] PlayerSpeed = { 3, 3.5f, 4.0f, 4.5f, 5.0f };
     //guide here
     private float[] healthCost = {800, 1100, 1400, 1500, 0 }; //this is the cost per level
-    private float[] speedCost = {600, 800, 1000, 1100, 0 }; //this is the cost per level
+    private float[] speedCost = {800, 1200, 1600, 1800, 0 }; //this is the cost per level
 
-    int[] playerlevel = { 1, 1 }; // player level health and speed
+    [HideInInspector] public int[] playerlevel = { 1, 1 }; // player level health and speed
 
     public void UpgradeHealth()
     {

@@ -34,7 +34,6 @@ public class GreenBossAnimation : MonoBehaviour, ICharacterAnimations, IEnemyFun
     {
         //animate the movement of the player
         enemyAnim.SetBool("isAttack", attack);
-
     }
 
     public void deadAnimation()
@@ -56,12 +55,27 @@ public class GreenBossAnimation : MonoBehaviour, ICharacterAnimations, IEnemyFun
 
     public void attackSound()
     {
-        Debug.Log("Attack");
+        //Debug.Log("Attack");
         AudioManagerScript.instance.playSound("GreenBoss");
     }
 
     public void deadSound()
     {
         AudioManagerScript.instance.playSound("EnemyKill");
+    }
+    public void refreshEnemy()
+    {
+        //starts the movement
+        EnemyMovement tempMove = GetComponent<EnemyMovement>();
+        tempMove.startMovement();
+        //full health again
+        EnemyStatistics tempStats = GetComponent<EnemyStatistics>();
+        tempStats.enemyHealth = tempStats.enemyMaxHealth;
+        //set dead statuts to false
+        tempStats.isDead = false;
+    }
+    public void hitSound()
+    {
+        //AudioManagerScript.instance.playSoundOne("GreenTalk");
     }
 }

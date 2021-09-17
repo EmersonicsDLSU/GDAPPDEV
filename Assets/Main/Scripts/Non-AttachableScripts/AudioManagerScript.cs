@@ -10,6 +10,8 @@ public class AudioManagerScript : MonoBehaviour
     public CustomSound[] sounds;
     public static AudioManagerScript instance;
 
+    [HideInInspector] public bool isMute = false;
+
     void Awake()
     {
         //doesn't cut the background music that starts playing from the mainMenu
@@ -55,7 +57,48 @@ public class AudioManagerScript : MonoBehaviour
             Debug.Log("Sound: " + name + " not found!");
             return;
         }
+        
+        //Before code
         s.source.Play();
+        
+
+        /*
+        //sir JR VERSION
+        //Manually load the clip first
+        s.clip.LoadAudioData();
+        //Checks if clip is done loading
+        if(s.clip.loadState == AudioDataLoadState.Loaded && !s.source.isPlaying)
+        {
+            //plays the sound clip
+            s.source.PlayOneShot(s.clip);
+        }
+        */
+    }
+    public void playSoundOne(string name)
+    {
+        CustomSound s = null;
+        foreach (var item in sounds)
+        {
+            if (item.name == name)
+            {
+                s = item;
+            }
+        }
+        if (s == null)
+        {
+            Debug.Log("Sound: " + name + " not found!");
+            return;
+        }
+
+        //sir JR VERSION
+        //Manually load the clip first
+        s.clip.LoadAudioData();
+        //Checks if clip is done loading
+        if(s.clip.loadState == AudioDataLoadState.Loaded && !s.source.isPlaying)
+        {
+            //plays the sound clip
+            s.source.PlayOneShot(s.clip);
+        }
     }
 
     public void muteAllSound()
@@ -64,6 +107,7 @@ public class AudioManagerScript : MonoBehaviour
         {
             item.source.volume = 0;
         }
+        this.isMute = true;
     }
     public void unMuteAllSound()
     {
@@ -71,6 +115,7 @@ public class AudioManagerScript : MonoBehaviour
         {
             item.source.volume = 1;
         }
+        this.isMute = false;
     }
 
     public void stopAllSound()

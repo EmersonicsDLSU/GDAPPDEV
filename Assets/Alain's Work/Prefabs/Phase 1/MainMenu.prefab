@@ -247,6 +247,7 @@ MonoBehaviour:
   parent1: {fileID: 800715547735336062}
   parent2: {fileID: 800715546264548461}
   parent3: {fileID: 800715547185461862}
+  parent4: {fileID: 0}
 --- !u!114 &800715546264548450
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5348,6 +5349,10 @@ PrefabInstance:
     - target: {fileID: 1992930410603984129, guid: 4500afdf217f7bd4792e26f6e26708f5, type: 3}
       propertyPath: m_Name
       value: Unity Ads
+      objectReference: {fileID: 0}
+    - target: {fileID: 1992930410603984129, guid: 4500afdf217f7bd4792e26f6e26708f5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1992930410603984130, guid: 4500afdf217f7bd4792e26f6e26708f5, type: 3}
       propertyPath: m_Pivot.x

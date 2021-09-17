@@ -7,24 +7,33 @@ public class GreenadeLauncherScript : MonoBehaviour
     private GameObject player;
     private PlayerMovement playerMove;
     //bulletDamage
-    [HideInInspector] public float bulletDamage = 5.0f;
+    [SerializeField] public float bulletDamage = 15.0f;
     //speed of the bullet
     [HideInInspector] public float bulletSpeed = 40.0f;
     //fire rate of the gun
-    [HideInInspector] public float fireRate = 40.0f;
+    [SerializeField] public float fireRate = 1.5f;
     //magazine of the gun
-    [HideInInspector] public int magazine = 8;
+    [SerializeField] public int magazine = 5;
+    [HideInInspector] public int currentAmmoCount = 0;
+    [HideInInspector] public int storedAmmoCount = 100;
 
     //gun movement
-    public float dirX;
-    public float dirY;
+    [HideInInspector] public float dirX;
+    [HideInInspector] public float dirY;
 
     // Start is called before the first frame update
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
         playerMove = player.GetComponent<PlayerMovement>();
+        Initialize();
     }
+
+    private void Initialize()
+    {
+        currentAmmoCount = magazine;
+    }
+
     float sample = 0.0f;
     // Update is called once per frame
     void Update()
@@ -52,32 +61,10 @@ public class GreenadeLauncherScript : MonoBehaviour
             dirY = playerMove.MovementY;
         }
 
-        /*
-        //gun position when idle facing right
-        if (dirX == 0.0f && dirY == 0.0f && playerMove.playerFace == PlayerMovement.sRight)
-        {
-            dirX = 1.0f; dirY = 0.0f;
-        }
-        //gun position when idle facing left
-        else if (dirX == 0.0f && dirY == 0.0f && playerMove.playerFace == PlayerMovement.sLeft)
-        {
-            dirX = -1.0f; dirY = 0.0f;
-        }
-        */
-
         //change orientation based on the direction
         Transform gunRb = this.GetComponent<Transform>();
         float angle = Mathf.Atan2(dirY, dirX) * Mathf.Rad2Deg;
         gunRb.rotation = Quaternion.Euler(0, 0, angle);
-
-
-        /*
-        //gun direction; shoots to the left; when idle facing left
-        if (playerMove.playerFace == PlayerMovement.sLeft && playerMove.MovementX == 0.0f)
-        {
-            gunRb.rotation = Quaternion.Euler(0, 0, -180.0f);
-        }
-        */
     }
 
 }

@@ -39,8 +39,6 @@ public class PlayerStatistics : MonoBehaviour
     }
     //Players vulnerability to damage
     [HideInInspector]public bool vulnerable = true;
-    //Player ammo count
-    public int ammoCount = 100;
     //Player dead state
     [HideInInspector] public bool isDead = false;
 

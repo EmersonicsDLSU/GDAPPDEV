@@ -8,11 +8,14 @@ public class FireButtonScript : MonoBehaviour, IPointerDownHandler, IPointerExit
 {
     /*DECLARATION START*/
 
+    //player compoennts
     private GameObject player;
     private PlayerAnimation playerAnim;
     private PlayerStatistics playerStats;
     private PlayerMovement playerMove;
     private Rigidbody2D rb;
+
+    //gun parent
     private GameObject gun;
 
     //bullet movement
@@ -20,7 +23,7 @@ public class FireButtonScript : MonoBehaviour, IPointerDownHandler, IPointerExit
     private float dirY;
 
     //shooting features
-    [SerializeField] private float recoilDistance = 10.0f;
+    private float recoilDistance = 5.0f;
 
     /*DECLARATION END*/
     public void Start()
@@ -31,7 +34,21 @@ public class FireButtonScript : MonoBehaviour, IPointerDownHandler, IPointerExit
         playerMove = player.GetComponent<PlayerMovement>();
         rb = player.GetComponent<Rigidbody2D>();
         gun = GameObject.FindGameObjectWithTag("Gun");
-       
+        gunFRSc = FindObjectOfType<GunFireRateSc>();
+    }
+    private void FixedUpdate()
+    {
+        if (isRecoil)
+        {
+            recoilTime -= Time.deltaTime;
+            //removes the velocity after the force was added to the object
+            if (recoilTime <= 0.0f)
+            {
+                rb.velocity = new Vector2(0.0f, 0.0f);
+                isRecoil = false;
+                recoilTime = 0.25f;
+            }
+        }
     }
 
     //Do this when the cursor enters the rect area of this selectable UI object.
@@ -58,9 +75,118 @@ public class FireButtonScript : MonoBehaviour, IPointerDownHandler, IPointerExit
         //Debug.Log("The mouse click was released");
         ButtonStateManager.Instance.onFireButton = false;
     }
-    private void GunSound() 
+
+    public void characterAttack()
     {
-        if(playerStats.currentGun == PlayerStatistics.sRedGun)
+        if(playerStats.isDead)
+        {
+            Debug.Log("Player is Dead!");
+            return;
+        }
+        else if(!checkAmmoCount())
+        {
+            Debug.Log("No Ammo, RELOAD!");
+            return;
+        }
+        else if (!checkFireRate())
+        {
+            Debug.Log("FireRate Ongoing");
+            return;
+        }
+        else if (checkAmmoCount())
+        {
+            Debug.Log("Shoot");
+            //perform all the functions for this fireEvent
+            playerAnim.attackAnimation();
+            
+            reduceAmmoCount();
+
+            GunSound();
+
+            bulletSpawn();
+
+            shootRecoil();
+        }
+    }
+
+    //gunfirerate component script
+    GunFireRateSc gunFRSc;
+    private bool checkFireRate()
+    {
+        //check if in cooldown
+        if (playerStats.currentGun == PlayerStatistics.sBlueGun && !gunFRSc.isBlueShoot)
+        {
+            return false;
+        }
+        else if (playerStats.currentGun == PlayerStatistics.sGreenGun && !gunFRSc.isGreenShoot)
+        {
+            return false;
+        }
+        else if (playerStats.currentGun == PlayerStatistics.sRedGun && !gunFRSc.isRedShoot)
+        {
+            return false;
+        }
+        return true;
+    }
+
+    private void reduceAmmoCount()
+    {
+        //get the status of the gun ammoCount
+        GameObject gunHolder = GameObject.FindGameObjectWithTag("Gun");
+        switch (playerStats.currentGun)
+        {
+            case PlayerStatistics.sBlueGun:
+                IceShotgunScript blueGun = gunHolder.GetComponentInChildren<IceShotgunScript>();
+                blueGun.currentAmmoCount -= 1;
+                gunFRSc.isBlueShoot = false;
+                break;
+            case PlayerStatistics.sGreenGun:
+                GreenadeLauncherScript greenGun = gunHolder.GetComponentInChildren<GreenadeLauncherScript>();
+                greenGun.currentAmmoCount -= 1;
+                gunFRSc.isGreenShoot = false;
+                break;
+            case PlayerStatistics.sRedGun:
+                RedLaserScript redGun = gunHolder.GetComponentInChildren<RedLaserScript>();
+                redGun.currentAmmoCount -= 1;
+                gunFRSc.isRedShoot = false;
+                break;
+        }
+    }
+
+    private bool checkAmmoCount()
+    {
+        int currAmmo = 0;
+        //get the status of the gun ammoCount
+        GameObject gunHolder = GameObject.FindGameObjectWithTag("Gun");
+        switch (playerStats.currentGun)
+        {
+            case PlayerStatistics.sBlueGun:
+                IceShotgunScript blueGun = gunHolder.GetComponentInChildren<IceShotgunScript>();
+                currAmmo = blueGun.currentAmmoCount;
+                break;
+            case PlayerStatistics.sGreenGun:
+                GreenadeLauncherScript greenGun = gunHolder.GetComponentInChildren<GreenadeLauncherScript>();
+                currAmmo = greenGun.currentAmmoCount;
+                break;
+            case PlayerStatistics.sRedGun:
+                RedLaserScript redGun = gunHolder.GetComponentInChildren<RedLaserScript>();
+                currAmmo = redGun.currentAmmoCount;
+                break;
+        }
+
+        if(currAmmo > 0)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+
+    private void GunSound()
+    {
+        if (playerStats.currentGun == PlayerStatistics.sRedGun)
         {
             AudioManagerScript.instance.playSound("RedSound");
         }
@@ -71,40 +197,6 @@ public class FireButtonScript : MonoBehaviour, IPointerDownHandler, IPointerExit
         else if (playerStats.currentGun == PlayerStatistics.sGreenGun)
         {
             AudioManagerScript.instance.playSound("GreenSound");
-        }
-    }
-
-    public void characterAttack()
-    {
-        if(playerStats.isDead)
-        {
-            return;
-        }
-        if (playerStats.ammoCount > 0)
-        {
-            //perform the attackAnimation
-            playerAnim.attackAnimation();
-            playerStats.ammoCount -= 1;
-            GunSound();
-
-            bulletSpawn();
-            shootRecoil();
-        }
-        
-
-    }
-
-    private void FixedUpdate()
-    {
-        if (isRecoil)
-        {
-            recoilTime -= Time.deltaTime;
-            if(recoilTime <= 0.0f)
-            {
-                rb.velocity = new Vector2(0.0f, 0.0f);
-                isRecoil = false;
-                recoilTime = 0.25f;
-            }
         }
     }
 
@@ -131,26 +223,6 @@ public class FireButtonScript : MonoBehaviour, IPointerDownHandler, IPointerExit
                 rb.AddForce(new Vector2(-redGun.dirX, -redGun.dirY) * recoilDistance, ForceMode2D.Impulse);
                 break;
         }
-
-        /*
-        if (playerMove.playerFace == PlayerMovement.sRight)
-        {
-            rb.AddForce(-transform.right * recoilDistance, ForceMode2D.Impulse);
-        }
-        else if (playerMove.playerFace == PlayerMovement.sLeft)
-        {
-            rb.AddForce(transform.right * recoilDistance, ForceMode2D.Impulse);
-        }
-        else if (playerMove.playerFace == PlayerMovement.sUp)
-        {
-            rb.AddForce(-transform.up * recoilDistance, ForceMode2D.Impulse);
-        }
-        else if (playerMove.playerFace == PlayerMovement.sDown)
-        {
-            rb.AddForce(transform.up * recoilDistance, ForceMode2D.Impulse);
-        }
-        */
-
         isRecoil = true;
     }
 

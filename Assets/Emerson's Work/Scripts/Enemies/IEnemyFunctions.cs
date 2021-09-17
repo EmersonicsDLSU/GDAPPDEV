@@ -5,4 +5,5 @@ using UnityEngine;
 public interface IEnemyFunctions
 {
     public bool getAnimationState(int index);
+    public void refreshEnemy();
 }

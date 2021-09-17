@@ -13,11 +13,12 @@ public class MainMenu : MonoBehaviour
     [SerializeField] private Button home;
     [SerializeField] private GameObject BG1;
     [SerializeField] private GameObject BG2;
-    [SerializeField] private GameObject parent1;
-    [SerializeField] private GameObject parent2;
-    [SerializeField] private GameObject parent3;
-    [SerializeField] private GameObject parent4;
-
+    [SerializeField] private GameObject parent1; //titleMenu
+    [SerializeField] private GameObject parent2; //MainMenu
+    [SerializeField] private GameObject parent3; //Options
+    [SerializeField] private GameObject parent4; //How To Play
+    [SerializeField] private GameObject parent5; //CreateAccount
+    [SerializeField] private GameObject parent6; //LeaderBoard
 
     public void loadHowToPlay()
     {
@@ -25,6 +26,8 @@ public class MainMenu : MonoBehaviour
         this.parent2.SetActive(false);
         this.parent3.SetActive(false);
         this.parent4.SetActive(true);
+        this.parent5.SetActive(false);
+        this.parent6.SetActive(false);
     }
 
     public void backFromHTPly()
@@ -33,6 +36,8 @@ public class MainMenu : MonoBehaviour
         this.parent2.SetActive(true);
         this.parent3.SetActive(false);
         this.parent4.SetActive(false);
+        this.parent5.SetActive(false);
+        this.parent6.SetActive(false);
     }
 
 
@@ -79,5 +84,36 @@ public class MainMenu : MonoBehaviour
         this.BG2.SetActive(false);
         this.BG1.SetActive(true);
     }
+    public void OnTapCreateAccount()
+    {
+        this.parent2.SetActive(false);
+        this.parent5.SetActive(true);
 
+        this.BG2.SetActive(true);
+    }
+    private string password = "APDEV";
+    public void OnCreateAccount()
+    {
+        InputField input_name = GameObject.FindGameObjectWithTag("InputName").GetComponent<InputField>();
+        Debug.Log($"Name: {input_name.text}");
+        if (input_name.text == "")
+        {
+            Debug.Log("No Name");
+            return;
+        }
+        InputField pass_word = GameObject.FindGameObjectWithTag("InputPassword").GetComponent<InputField>();
+        if(pass_word.text == this.password)
+        {
+            Debug.Log("Ad Free");
+            UserAccountSc.Instance.AdFree = true;
+        }
+        UserAccountSc.Instance.UserName = input_name.text;
+        GameObject.FindObjectOfType<TitleMenu>().loadGameLevelScene();
+    }
+
+    public void OnLeaderBoard()
+    {
+        this.parent2.SetActive(false);
+        this.parent6.SetActive(true);
+    }
 }

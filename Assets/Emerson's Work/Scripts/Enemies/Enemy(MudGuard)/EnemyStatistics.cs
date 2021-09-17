@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class EnemyStatistics : MonoBehaviour
 {
+    [HideInInspector] public string spawnerSource = null;
+
     //bullet and gun names; static const
     [HideInInspector] public const string sRedEnemy = "RED_ENEMY";
     [HideInInspector] public const string sBlueEnemy = "BLUE_ENEMY";

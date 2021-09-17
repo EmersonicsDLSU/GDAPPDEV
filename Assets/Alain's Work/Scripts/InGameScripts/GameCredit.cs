@@ -7,7 +7,7 @@ public class GameCredit : MonoBehaviour
     [HideInInspector] public static GameCredit Instance;
 
     //current money of the player
-    [HideInInspector] public static float gameMoney = 10000;
+    [HideInInspector] public static float gameMoney = 0;
 
     public void Awake()
     {

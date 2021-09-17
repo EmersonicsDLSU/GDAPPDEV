@@ -46,11 +46,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4372b8c54fcd2814dbd1604bd6bf30df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemySpeed: 2
+  spawnerSource: 
+  enemySpeed: 3
   enemyDamage: 10
   color_type: BLUE_ENEMY
-  enemyHealth: 100
-  enemyMaxHealth: 100
+  enemyHealth: 300
+  enemyMaxHealth: 300
   vulnerable: 1
   isDead: 0
 --- !u!114 &3916994334633179601
@@ -66,6 +67,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   aiPath: {fileID: 5367531440692583297}
+  m_FacingRight: 0
 --- !u!114 &3385825708385422322
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -148,9 +150,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1559319841
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1882347247711912902, guid: da35bcd079768af428b26386e8d36d7b, type: 3}
+  m_Sprite: {fileID: 5831363709815067099, guid: d5bcc93f9c9afcf4f9f1b520bc1b2e49, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -195,6 +197,7 @@ GameObject:
   - component: {fileID: 5367531440692583301}
   - component: {fileID: 5367531440692583322}
   - component: {fileID: 2162084683178924461}
+  - component: {fileID: 5320189708772341225}
   m_Layer: 0
   m_Name: BlueBoss
   m_TagString: Enemies
@@ -326,7 +329,7 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -345,6 +348,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99aa2c69cd1d53c4fb8860d90d063caa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &5320189708772341225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5367531440692583296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ffc306cfd812f9469a1e813f1e9e41a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1602113691817987532
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -358,6 +373,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4707358281142847062, guid: 424a3121539b5a049b8d19beb938f2d8, type: 3}
       propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4707358281142847063, guid: 424a3121539b5a049b8d19beb938f2d8, type: 3}
+      propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4707358281414142963, guid: 424a3121539b5a049b8d19beb938f2d8, type: 3}
@@ -402,7 +421,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4707358281414142963, guid: 424a3121539b5a049b8d19beb938f2d8, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.2
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 4707358281414142963, guid: 424a3121539b5a049b8d19beb938f2d8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -459,6 +478,18 @@ PrefabInstance:
     - target: {fileID: 4707358281414142967, guid: 424a3121539b5a049b8d19beb938f2d8, type: 3}
       propertyPath: m_Name
       value: HealthBarCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 4707358281414142967, guid: 424a3121539b5a049b8d19beb938f2d8, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4707358282239768651, guid: 424a3121539b5a049b8d19beb938f2d8, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4707358282584831040, guid: 424a3121539b5a049b8d19beb938f2d8, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 424a3121539b5a049b8d19beb938f2d8, type: 3}

@@ -64,7 +64,7 @@ public class PlayerAnimation : MonoBehaviour, ICharacterAnimations
             if (dashNow)
             {
                 dashNow = !dashNow;
-                dashEffect();
+                //dashEffect();
             }
             if (dashAnimationDuration <= 0.0f)
             {
@@ -73,6 +73,7 @@ public class PlayerAnimation : MonoBehaviour, ICharacterAnimations
                 dashAnimationDuration = 0.25f;
                 isDash = false;
                 rb.velocity = new Vector2(0.0f, 0.0f);
+                rb.rotation = 0.0f;
                 ResetAnimation();
             }
             dashAnimationDuration -= Time.deltaTime;
@@ -114,14 +115,33 @@ public class PlayerAnimation : MonoBehaviour, ICharacterAnimations
 
     public void attackAnimation(bool attack = true)
     {
-        //set the attack animation
+        //set the attack animation; ammo is always sufficient when called
         playerAnim.SetBool("Shoot", true);
-        playerAnim.SetInteger("Ammos", playerStats.ammoCount);
+
+        //get the status of the gun ammoCount
+        GameObject gunHolder = GameObject.FindGameObjectWithTag("Gun");
+        int ammoCount = 0;
+        switch (playerStats.currentGun)
+        {
+            case PlayerStatistics.sBlueGun:
+                IceShotgunScript blueGun = gunHolder.GetComponentInChildren<IceShotgunScript>();
+                ammoCount = blueGun.currentAmmoCount;
+                break;
+            case PlayerStatistics.sGreenGun:
+                GreenadeLauncherScript greenGun = gunHolder.GetComponentInChildren<GreenadeLauncherScript>();
+                ammoCount = greenGun.currentAmmoCount;
+                break;
+            case PlayerStatistics.sRedGun:
+                RedLaserScript redGun = gunHolder.GetComponentInChildren<RedLaserScript>();
+                ammoCount = redGun.currentAmmoCount;
+                break;
+        }
+        playerAnim.SetInteger("Ammos", ammoCount);
         isShoot = true;
     }
 
     //dash properties
-    private float dashDistance = 25.0f;
+    private float dashDistance = 2.5f;
     private float dashAnimationDuration = 0.1f;
     private bool isDash = false;
     private bool isDashRight = false;

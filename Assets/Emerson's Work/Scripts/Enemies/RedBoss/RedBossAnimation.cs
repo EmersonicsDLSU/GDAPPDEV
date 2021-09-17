@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RedBossAnimation : MonoBehaviour, ICharacterAnimations, IEnemyFunctions
+public class RedBossAnimation : MonoBehaviour, ICharacterAnimations, IEnemyFunctions, ICharacterSounds
 {
     //player Animator
     private Animator enemyAnim;
@@ -35,8 +35,6 @@ public class RedBossAnimation : MonoBehaviour, ICharacterAnimations, IEnemyFunct
     {
         //animate the movement of the player
         enemyAnim.SetBool("isAttack", attack);
-        if (attack == true)
-            AudioManagerScript.instance.playSound("RedBoss");
 
     }
 
@@ -55,5 +53,32 @@ public class RedBossAnimation : MonoBehaviour, ICharacterAnimations, IEnemyFunct
     public bool getAnimationState(int index)
     {
         return this.enemyAnim.GetCurrentAnimatorStateInfo(index).IsName("RB_attack");
+    }
+
+    public void attackSound()
+    {
+        Debug.Log("Attack");
+        AudioManagerScript.instance.playSound("RedBoss");
+    }
+
+    public void deadSound()
+    {
+        AudioManagerScript.instance.playSound("EnemyKill");
+    }
+
+    public void refreshEnemy()
+    {
+        //starts the movement
+        EnemyMovement tempMove = GetComponent<EnemyMovement>();
+        tempMove.startMovement();
+        //full health again
+        EnemyStatistics tempStats = GetComponent<EnemyStatistics>();
+        tempStats.enemyHealth = tempStats.enemyMaxHealth;
+        //set dead statuts to false
+        tempStats.isDead = false;
+    }
+    public void hitSound()
+    {
+        //AudioManagerScript.instance.playSoundOne("RedTalk");
     }
 }

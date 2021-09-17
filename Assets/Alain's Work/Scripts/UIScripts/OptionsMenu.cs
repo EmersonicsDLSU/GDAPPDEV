@@ -13,19 +13,18 @@ public class OptionsMenu : MonoBehaviour
     [SerializeField] private GameObject parent1;
     [SerializeField] private GameObject parent2;
     [SerializeField] private GameObject parent3;
+    [SerializeField] private GameObject parent4;
 
     // Start is called before the first frame update
     void Start()
     {
         this.parent1.SetActive(false);
         this.parent2.SetActive(false);
-        this.parent3.SetActive(true);
         this.BG1.SetActive(false);
         this.BG2.SetActive(true);
 
         Button btn = back.GetComponent<Button>();
         btn.onClick.AddListener(OnTapBack);
-
  
     }
 
@@ -35,5 +34,11 @@ public class OptionsMenu : MonoBehaviour
         this.parent3.SetActive(false);
         this.BG2.SetActive(true);
     }
-   
+    public void OnTapCreate()
+    {
+        this.parent2.SetActive(true);
+        this.parent4.SetActive(false);
+        this.BG2.SetActive(true);
+    }
+
 }

@@ -46,5 +46,5 @@ MonoBehaviour:
   enemyGO: {fileID: 1771100946698788716, guid: bf5e68834df512441ba24970e217bb8f, type: 3}
   enemySizeLimit: 1
   enemyList: []
-  spawnDuration: 10
+  spawnDuration: 150
   spawnTimer: 2

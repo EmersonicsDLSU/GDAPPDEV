@@ -19,6 +19,9 @@ public class BlueBulletScript : MonoBehaviour, IGunModel, IBullet
     //bulletRigidBody
     private Rigidbody2D bulletRb;
 
+    //effect text
+    private DamageTextSpawn textEffect;
+
     /*DECLARATION END*/
 
     void Start()
@@ -27,6 +30,7 @@ public class BlueBulletScript : MonoBehaviour, IGunModel, IBullet
         bulletRb = GetComponent<Rigidbody2D>();
         isBulletRight = playerMove.m_FacingRight;
         iceShotgun = GameObject.FindObjectOfType<IceShotgunScript>();
+        textEffect = GameObject.FindObjectOfType<DamageTextSpawn>();
     }
 
     // Update is called once per frame
@@ -51,7 +55,7 @@ public class BlueBulletScript : MonoBehaviour, IGunModel, IBullet
     //spawns the bullet into its selected location
     public void createBullet(ref GameObject bullet)
     {
-        Debug.Log("Blue bullet spawn");
+        //Debug.Log("Blue bullet spawn");
         //get gun
         GameObject gun = GameObject.FindGameObjectWithTag("Gun");
 
@@ -82,31 +86,38 @@ public class BlueBulletScript : MonoBehaviour, IGunModel, IBullet
     private void enemyDamage(ref EnemyStatistics enemyStats)
     {
         float totalDamage = 0;
+        Color color = Color.white; //default color
         //determines the effectiveness of the damage
-        if(enemyStats.color_type == EnemyStatistics.sBlueEnemy)
+        if (enemyStats.color_type == EnemyStatistics.sBlueEnemy)
         {
             totalDamage = iceShotgun.bulletDamage * 2;
+            color = Color.red;
         }
         if (enemyStats.color_type == EnemyStatistics.sGreenEnemy)
         {
             totalDamage = iceShotgun.bulletDamage * 0.5f;
+            color = Color.black;
         }
         if (enemyStats.color_type == EnemyStatistics.sRedEnemy)
         {
             totalDamage = iceShotgun.bulletDamage * 0.5f;
+            color = Color.black;
         }
         if (enemyStats.color_type == EnemyStatistics.sNormalnemy)
         {
             totalDamage = iceShotgun.bulletDamage * 1;
+            color = Color.white;
         }
         //damage the player
         enemyStats.EnemyHealth -= totalDamage;
+        textEffect.relaseText((int)totalDamage, enemyStats.transform.gameObject.GetComponent<Transform>()
+            , color, enemyStats.transform.gameObject.GetComponent<EnemyMovement>().m_FacingRight);
         //add the sfx damage numbers
     }
 
     public void onHit(GameObject enemyGo)
     {
-        //Debug.Log("Hit");
+        //Debug.Log("Hit"); 
         //destroys the bullet if it was collided with the enemy
         Destroy(this.gameObject, GeneralAnimationProperty.bullet_duration);
 
@@ -114,8 +125,11 @@ public class BlueBulletScript : MonoBehaviour, IGunModel, IBullet
         EnemyStatistics enemyStats = enemyGo.GetComponentInChildren<EnemyStatistics>();
         enemyDamage(ref enemyStats);
 
+        ICharacterSounds enemySounds = enemyGo.GetComponentInChildren<ICharacterSounds>();
+        enemySounds.hitSound();
+
         //checks if the enemy is below 0 health
-        if(enemyStats.EnemyHealth <= 0.0f && !enemyStats.isDead)
+        if (enemyStats.EnemyHealth <= 0.0f && !enemyStats.isDead)
         {
             //set dead statuts to true
             enemyStats.isDead = true;
@@ -130,14 +144,33 @@ public class BlueBulletScript : MonoBehaviour, IGunModel, IBullet
             {
                 EnemySpawn hasSpawn = enemyGo.transform.parent.GetComponent<EnemySpawn>();
                 hasSpawn.destroyEnemy(ref enemyGo);
+                addScoreAndMoney(enemyStats);
             }
             //check if its not from the spawn
             else
             {
-                enemyAnim.destroyObj();
+                EnemySpawn pool = GameObject.Find(enemyStats.spawnerSource).GetComponent<EnemySpawn>();
+                pool.enemyPool.ReleasePoolable(ref enemyGo);
+                //enemyAnim.destroyObj();
                 //add money when the enemy was killed
-                GameCredit.addCurrency(100);
+                addScoreAndMoney(enemyStats);
             }
+        }
+    }
+
+    private void addScoreAndMoney(EnemyStatistics enemyStats)
+    {
+        //the bosses
+        if(enemyStats.color_type != EnemyStatistics.sNormalnemy)
+        {
+            GameCredit.addCurrency(500);
+            UserAccountSc.Instance.UserGameScore += 3;
+        }
+        //normal enemies
+        else
+        {
+            GameCredit.addCurrency(100);
+            UserAccountSc.Instance.UserGameScore += 1;
         }
     }
 }

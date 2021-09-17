@@ -144,7 +144,9 @@ MonoBehaviour:
   bulletDamage: 5
   bulletSpeed: 40
   fireRate: 40
-  magazine: 8
+  magazine: 20
+  currentAmmoCount: 0
+  storedAmmoCount: 100
   dirX: 0
   dirY: 0
 --- !u!1 &1013495176671707923
@@ -245,7 +247,9 @@ MonoBehaviour:
   bulletDamage: 5
   bulletSpeed: 40
   fireRate: 40
-  magazine: 8
+  magazine: 5
+  currentAmmoCount: 0
+  storedAmmoCount: 100
   dirX: 0
   dirY: 0
 --- !u!1 &1013495176963661136
@@ -347,5 +351,7 @@ MonoBehaviour:
   bulletSpeed: 40
   fireRate: 40
   magazine: 8
+  currentAmmoCount: 0
+  storedAmmoCount: 100
   dirX: 0
   dirY: 0

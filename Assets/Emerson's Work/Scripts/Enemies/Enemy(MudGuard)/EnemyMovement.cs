@@ -4,7 +4,7 @@ using UnityEngine;
 public class EnemyMovement : MonoBehaviour
 {
     [HideInInspector] public AIPath aiPath;
-    private bool m_FacingRight = false;
+    [HideInInspector] public bool m_FacingRight = false;
     private float goalOffset = 2.0f;
 
     //enemy stats
@@ -30,6 +30,8 @@ public class EnemyMovement : MonoBehaviour
 
     //for player respawn
     private float spawnTimer = 0.0f;
+
+    
 
     private void Start()
     {
@@ -91,16 +93,24 @@ public class EnemyMovement : MonoBehaviour
             spawnTimer += Time.deltaTime;
             if(spawnTimer >= GeneralAnimationProperty.player_dead_delay)
             {
+                //minus lives
+                UserAccountSc.Instance.LifeCount -= 1;
                 spawnTimer = 0.0f;
+                FindObjectOfType<GunFireRateSc>().refreshAllFireRate();
                 playerFunc.respawnPlayer();
             }
+        }
+
+         if(UserAccountSc.Instance.LifeCount == 0)
+        {
+            
         }
     }
 
     private void attackPlayer()
     {
         //produce attack sound
-        ICharacterSounds enemyAtkSnd = this.GetComponent<ICharacterSounds>();
+        ICharacterSounds enemyAtkSnd = GetComponent<ICharacterSounds>();
         enemyAtkSnd.attackSound();
         //reduces player's health and turns off vulnerability
         playerStats.PlayerHealth -= enemyStats.enemyDamage;
@@ -139,6 +149,11 @@ public class EnemyMovement : MonoBehaviour
     {
         //stops the movement of the enemy
         this.aiPath.maxSpeed = 0.0f;
+    }
+    public void startMovement()
+    {
+        //stops the movement of the enemy
+        this.aiPath.maxSpeed = max_speed;
     }
 
 }

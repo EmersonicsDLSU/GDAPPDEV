@@ -20,6 +20,11 @@ public class AdsManager : MonoBehaviour, IUnityAdsListener
         if (Advertisement.IsReady("Apdev_InterstitialAd"))
         {
             Advertisement.Show("Apdev_InterstitialAd");
+            Debug.Log("ad is ready");
+        }
+        else
+        {
+            Debug.Log("ad not ready");
         }
     }
 
@@ -33,6 +38,29 @@ public class AdsManager : MonoBehaviour, IUnityAdsListener
         {
             Debug.Log("Reward ad not ready");
         }
+    }
+    public void ShowBanner()
+    {
+        if (Advertisement.IsReady("Appdev_banner_ad"))
+        {
+            Advertisement.Banner.SetPosition(BannerPosition.TOP_CENTER);
+            Advertisement.Banner.Show("Appdev_banner_ad");
+        }
+        else
+        {
+            StartCoroutine(RepeatShowBanner());
+        }
+    }
+
+    public void HideBanner()
+    {
+        Advertisement.Banner.Hide();
+    }
+
+    IEnumerator RepeatShowBanner()
+    {
+        yield return new WaitForSeconds(1);
+        ShowBanner();
     }
 
     public void OnUnityAdsReady(string placementId)

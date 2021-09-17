@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
     private PlayerMovement plyMoveSc;
     private PlayerFunctions plyFunc;
     private PlayerStatistics plyStats;
+    private Rigidbody2D rb;
 
     public static PlayerController instance;
     void Awake()
@@ -23,6 +24,7 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        rb = this.GetComponent<Rigidbody2D>();
         plyMoveSc = GetComponent<PlayerMovement>();
         plyFunc = GetComponent<PlayerFunctions>();
         plyStats = GetComponent<PlayerStatistics>();
@@ -32,6 +34,8 @@ public class PlayerController : MonoBehaviour
     //Fixed update since where tranforming(translating) the position of our player per frame
     void FixedUpdate()
     {
+
+
         if (GameSceneScript.Instance.currentScene != 0 && !plyStats.isDead)
         {
             plyMoveSc.playerMove();
