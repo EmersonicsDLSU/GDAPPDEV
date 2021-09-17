@@ -12,6 +12,8 @@ TagManager:
   - Enemies
   - RespawnPoint
   - Levels
+  - InputName
+  - InputPassword
   layers:
   - Default
   - TransparentFX
@@ -21,7 +23,7 @@ TagManager:
   - UI
   - non-walkable
   - walkable
-  - 
+  - Minimap
   - 
   - 
   - 
@@ -54,6 +56,9 @@ TagManager:
     locked: 0
   - name: TilesDeco
     uniqueID: 3220414829
+    locked: 0
+  - name: Collectables
+    uniqueID: 2448500885
     locked: 0
   - name: Enemies
     uniqueID: 2485463991
